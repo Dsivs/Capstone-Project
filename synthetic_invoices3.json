@@ -1,0 +1,862 @@
+[
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Gregory-Sanders"
+      },
+      {
+        "field": "invoice_date",
+        "value": "01/21/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Gregory-Sanders"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Gregory-Sanders"
+      },
+      {
+        "field": "due_date",
+        "value": "03/22/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 60 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "378967.88"
+      },
+      {
+        "field": "tax",
+        "value": "14574.63"
+      },
+      {
+        "field": "po_number",
+        "value": "2503-3344"
+      },
+      {
+        "field": "merchant_address",
+        "value": "2178 Kathleen Heights Littlemouth GA 73466 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "FedEx Express"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "label",
+        "value": 0
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "A-6368 Deluxe Structural Component",
+            "line_qty": "100",
+            "line_tax": "14366.87",
+            "line_total": "359171.74"
+          },
+          {
+            "line_count": "2",
+            "line_description": "FD-0317 Extended Safety Mechanism",
+            "line_qty": "1",
+            "line_tax": "207.76",
+            "line_total": "5194.02"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Taylor-Whitehead Construction Enterprises"
+      },
+      {
+        "field": "invoice_date",
+        "value": "12/10/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Taylor-Whitehead Construction Enterprises"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Taylor-Whitehead Construction Enterprises"
+      },
+      {
+        "field": "due_date",
+        "value": "02/08/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 60 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "515.10"
+      },
+      {
+        "field": "tax",
+        "value": "0.00"
+      },
+      {
+        "field": "po_number",
+        "value": "80742-619"
+      },
+      {
+        "field": "merchant_address",
+        "value": "2245 Sims Manor Apt. 417 Port Patricia PW 50796 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "Net Banking"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "label",
+        "value": 1
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "KXM-22885 Deluxe Hardware",
+            "line_qty": "1",
+            "line_tax": "0.00",
+            "line_total": "515.10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Lopez & Johnson Industrial"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/22/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Lopez & Johnson Industrial"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Lopez & Johnson Industrial"
+      },
+      {
+        "field": "due_date",
+        "value": "03/24/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "53131.26"
+      },
+      {
+        "field": "tax",
+        "value": "3303.58"
+      },
+      {
+        "field": "po_number",
+        "value": "209493"
+      },
+      {
+        "field": "merchant_address",
+        "value": "5744 Gonzalez Knoll Larsonbury NJ 46878 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "UPS Ground"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "label",
+        "value": 0
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "LW-78091 Commercial Compressor",
+            "line_qty": "3",
+            "line_tax": "220.98",
+            "line_total": "3332.97"
+          },
+          {
+            "line_count": "2",
+            "line_description": "S-51718 Advanced Valve",
+            "line_qty": "24",
+            "line_tax": "1538.81",
+            "line_total": "23209.77"
+          },
+          {
+            "line_count": "3",
+            "line_description": "T-473 Heavy Duty Gauge",
+            "line_qty": "1",
+            "line_tax": "52.68",
+            "line_total": "794.60"
+          },
+          {
+            "line_count": "4",
+            "line_description": "MZE-456 Industrial Valve",
+            "line_qty": "24",
+            "line_tax": "1437.61",
+            "line_total": "21683.37"
+          },
+          {
+            "line_count": "5",
+            "line_description": "K-7005 Basic Compressor",
+            "line_qty": "2",
+            "line_tax": "53.50",
+            "line_total": "806.97"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Taylor Automotive Co."
+      },
+      {
+        "field": "invoice_date",
+        "value": "11/01/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Taylor Automotive Co."
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Taylor Automotive Co."
+      },
+      {
+        "field": "due_date",
+        "value": "12/01/2024"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "3188.55"
+      },
+      {
+        "field": "tax",
+        "value": "137.31"
+      },
+      {
+        "field": "po_number",
+        "value": "27878-568"
+      },
+      {
+        "field": "merchant_address",
+        "value": "82198 Wilson Harbors Suite 932 Millerstad OK 82021 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "UPS Ground"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "label",
+        "value": 0
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "NC-83982 Economy Brake System",
+            "line_qty": "1",
+            "line_tax": "2.07",
+            "line_total": "45.95"
+          },
+          {
+            "line_count": "2",
+            "line_description": "SDU-485 Extended Electrical Component",
+            "line_qty": "4",
+            "line_tax": "135.24",
+            "line_total": "3005.29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Manage Aerospace Systems"
+      },
+      {
+        "field": "invoice_date",
+        "value": "01/17/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Manage Aerospace Systems"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Manage Aerospace Systems"
+      },
+      {
+        "field": "due_date",
+        "value": "03/03/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 45 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "196085.06"
+      },
+      {
+        "field": "tax",
+        "value": "8443.86"
+      },
+      {
+        "field": "po_number",
+        "value": "PO-40107"
+      },
+      {
+        "field": "merchant_address",
+        "value": "116 Joel Vista Suite 990 Susantown OK 95058 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "USPS Priority"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "label",
+        "value": 0
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "YYV-82795 Advanced Safety Mechanism",
+            "line_qty": "24",
+            "line_tax": "6194.37",
+            "line_total": "137652.63"
+          },
+          {
+            "line_count": "2",
+            "line_description": "LQH-6096 Deluxe Cabin Equipment",
+            "line_qty": "10",
+            "line_tax": "376.79",
+            "line_total": "8373.09"
+          },
+          {
+            "line_count": "3",
+            "line_description": "MCS-68926 Extended Cabin Equipment",
+            "line_qty": "12",
+            "line_tax": "1156.13",
+            "line_total": "25691.71"
+          },
+          {
+            "line_count": "4",
+            "line_description": "L-8299 Lightweight Structural Component",
+            "line_qty": "1",
+            "line_tax": "173.15",
+            "line_total": "3847.86"
+          },
+          {
+            "line_count": "5",
+            "line_description": "EW-25188 Deluxe Communication Device",
+            "line_qty": "2",
+            "line_tax": "543.42",
+            "line_total": "12075.91"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Gregory-Sanders"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/26/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Gregory-Sanders"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Gregory-Sanders"
+      },
+      {
+        "field": "due_date",
+        "value": "04/27/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 60 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "12560.54"
+      },
+      {
+        "field": "tax",
+        "value": "481.82"
+      },
+      {
+        "field": "po_number",
+        "value": "Q28169"
+      },
+      {
+        "field": "merchant_address",
+        "value": "2178 Kathleen Heights Littlemouth GA 73466 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "FedEx Ground"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "label",
+        "value": 0
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "C-9587 Standard Communication Device",
+            "line_qty": "2",
+            "line_tax": "294.00",
+            "line_total": "7349.94"
+          },
+          {
+            "line_count": "2",
+            "line_description": "Z-768 Premium Communication Device",
+            "line_qty": "1",
+            "line_tax": "187.82",
+            "line_total": "4695.55"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Such LLC"
+      },
+      {
+        "field": "invoice_date",
+        "value": "11/22/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Such LLC"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Such LLC"
+      },
+      {
+        "field": "due_date",
+        "value": "11/22/2024"
+      },
+      {
+        "field": "payment_terms",
+        "value": "DUE ON RECEIPT"
+      },
+      {
+        "field": "grand_total",
+        "value": "830.19"
+      },
+      {
+        "field": "tax",
+        "value": "34.28"
+      },
+      {
+        "field": "po_number",
+        "value": "20611-735"
+      },
+      {
+        "field": "merchant_address",
+        "value": "98751 Ryan Plains East Derrick OK 20437 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "USPS Priority"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "label",
+        "value": 0
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "K-253 Heavy Duty Laminator",
+            "line_qty": "10",
+            "line_tax": "34.28",
+            "line_total": "761.74"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Anderson-Perry Inc."
+      },
+      {
+        "field": "invoice_date",
+        "value": "01/31/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Anderson-Perry Inc."
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Anderson-Perry Inc."
+      },
+      {
+        "field": "due_date",
+        "value": "03/02/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "8942.03"
+      },
+      {
+        "field": "tax",
+        "value": "385.06"
+      },
+      {
+        "field": "po_number",
+        "value": "436030"
+      },
+      {
+        "field": "merchant_address",
+        "value": "213 Holland Shoal Suite 525 Wrightstad OK 87218 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "FedEx Ground"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "label",
+        "value": 0
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "X-900 Ultimate Gauge",
+            "line_qty": "3",
+            "line_tax": "236.92",
+            "line_total": "5265.00"
+          },
+          {
+            "line_count": "2",
+            "line_description": "SKQ-96118 Deluxe Conveyor Belt",
+            "line_qty": "5",
+            "line_tax": "148.14",
+            "line_total": "3291.97"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Gregory-Sanders"
+      },
+      {
+        "field": "invoice_date",
+        "value": "09/14/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Gregory-Sanders"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Gregory-Sanders"
+      },
+      {
+        "field": "due_date",
+        "value": "09/14/2024"
+      },
+      {
+        "field": "payment_terms",
+        "value": "DUE ON RECEIPT"
+      },
+      {
+        "field": "grand_total",
+        "value": "40124.13"
+      },
+      {
+        "field": "tax",
+        "value": "1543.23"
+      },
+      {
+        "field": "po_number",
+        "value": "18601-292"
+      },
+      {
+        "field": "merchant_address",
+        "value": "2178 Kathleen Heights Littlemouth GA 73466 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "FedEx Ground"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "label",
+        "value": 0
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "EW-25188 Deluxe Communication Device",
+            "line_qty": "4",
+            "line_tax": "969.01",
+            "line_total": "24225.27"
+          },
+          {
+            "line_count": "2",
+            "line_description": "FV-430 Premium Cabin Equipment",
+            "line_qty": "3",
+            "line_tax": "97.69",
+            "line_total": "2442.30"
+          },
+          {
+            "line_count": "3",
+            "line_description": "N-7223 Commercial Structural Component",
+            "line_qty": "2",
+            "line_tax": "476.53",
+            "line_total": "11913.33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Martinez"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/05/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Martinez"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Martinez"
+      },
+      {
+        "field": "due_date",
+        "value": "03/07/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "82165.45"
+      },
+      {
+        "field": "tax",
+        "value": "5014.79"
+      },
+      {
+        "field": "po_number",
+        "value": "L95951"
+      },
+      {
+        "field": "merchant_address",
+        "value": "79463 Patrick Lodge Barnesville KS 32663 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "Check"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "label",
+        "value": 0
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "DEP-422 Commercial Fluid",
+            "line_qty": "2",
+            "line_tax": "40.06",
+            "line_total": "616.27"
+          },
+          {
+            "line_count": "2",
+            "line_description": "ZJY-7759 Standard Electrical Component",
+            "line_qty": "2",
+            "line_tax": "50.51",
+            "line_total": "777.08"
+          },
+          {
+            "line_count": "3",
+            "line_description": "SDU-485 Extended Electrical Component",
+            "line_qty": "1",
+            "line_tax": "47.86",
+            "line_total": "736.31"
+          },
+          {
+            "line_count": "4",
+            "line_description": "LT-29750 Standard Brake System",
+            "line_qty": "4",
+            "line_tax": "133.07",
+            "line_total": "2047.28"
+          },
+          {
+            "line_count": "5",
+            "line_description": "ZY-5140 Ultimate Engine Component",
+            "line_qty": "1",
+            "line_tax": "56.13",
+            "line_total": "863.49"
+          },
+          {
+            "line_count": "6",
+            "line_description": "DH-959 Economy Engine Component",
+            "line_qty": "50",
+            "line_tax": "1020.18",
+            "line_total": "15695.13"
+          },
+          {
+            "line_count": "7",
+            "line_description": "C-475 Ultimate Brake System",
+            "line_qty": "100",
+            "line_tax": "3666.98",
+            "line_total": "56415.10"
+          }
+        ]
+      }
+    ]
+  }
+]

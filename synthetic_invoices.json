@@ -1,0 +1,8419 @@
+[
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "EnterOfficer Technology LLC"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/18/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "EnterOfficer Technology LLC"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "EnterOfficer Technology LLC"
+      },
+      {
+        "field": "due_date",
+        "value": "02/18/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "DUE ON RECEIPT"
+      },
+      {
+        "field": "grand_total",
+        "value": "39842.45"
+      },
+      {
+        "field": "tax",
+        "value": "1714.82"
+      },
+      {
+        "field": "po_number",
+        "value": "612997"
+      },
+      {
+        "field": "merchant_address",
+        "value": "07878 Paula Points Boydland OK 51912 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "USPS Priority"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "F-90878 Premium Network Device",
+            "line_qty": "10",
+            "line_tax": "1188.90",
+            "line_total": "26419.94"
+          },
+          {
+            "line_count": "2",
+            "line_description": "TED-099 Lightweight Server",
+            "line_qty": "3",
+            "line_tax": "243.96",
+            "line_total": "5421.43"
+          },
+          {
+            "line_count": "3",
+            "line_description": "N-99586 Lightweight Network Device",
+            "line_qty": "3",
+            "line_tax": "59.71",
+            "line_total": "1326.97"
+          },
+          {
+            "line_count": "4",
+            "line_description": "YF-752 Heavy Duty Network Device",
+            "line_qty": "1",
+            "line_tax": "136.66",
+            "line_total": "3037.00"
+          },
+          {
+            "line_count": "5",
+            "line_description": "AB-35058 Commercial Cable",
+            "line_qty": "1",
+            "line_tax": "85.59",
+            "line_total": "1902.09"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Gregory-Sanders"
+      },
+      {
+        "field": "invoice_date",
+        "value": "12/15/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Gregory-Sanders"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Gregory-Sanders"
+      },
+      {
+        "field": "due_date",
+        "value": "12/15/2024"
+      },
+      {
+        "field": "payment_terms",
+        "value": "DUE ON RECEIPT"
+      },
+      {
+        "field": "grand_total",
+        "value": "124564.73"
+      },
+      {
+        "field": "tax",
+        "value": "4790.95"
+      },
+      {
+        "field": "po_number",
+        "value": "960607"
+      },
+      {
+        "field": "merchant_address",
+        "value": "2178 Kathleen Heights Littlemouth GA 73466 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "DHL Express"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "Z-33884 Extended Structural Component",
+            "line_qty": "10",
+            "line_tax": "1788.02",
+            "line_total": "44700.45"
+          },
+          {
+            "line_count": "2",
+            "line_description": "YYV-82795 Advanced Safety Mechanism",
+            "line_qty": "12",
+            "line_tax": "3002.93",
+            "line_total": "75073.33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "WorryAdult"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/24/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "WorryAdult"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "WorryAdult"
+      },
+      {
+        "field": "due_date",
+        "value": "03/26/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "117768.27"
+      },
+      {
+        "field": "tax",
+        "value": "7933.48"
+      },
+      {
+        "field": "po_number",
+        "value": "PO-15975"
+      },
+      {
+        "field": "merchant_address",
+        "value": "23616 Blackburn Field Sergiochester TN 56955 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "Wire Transfer"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "YAB-845 Compact Cabin Equipment",
+            "line_qty": "12",
+            "line_tax": "2930.11",
+            "line_total": "38348.70"
+          },
+          {
+            "line_count": "2",
+            "line_description": "WF-230 High Performance Cabin Equipment",
+            "line_qty": "1",
+            "line_tax": "283.46",
+            "line_total": "4049.37"
+          },
+          {
+            "line_count": "3",
+            "line_description": "Z-33884 Extended Structural Component",
+            "line_qty": "3",
+            "line_tax": "1054.28",
+            "line_total": "15061.14"
+          },
+          {
+            "line_count": "4",
+            "line_description": "N-7223 Commercial Structural Component",
+            "line_qty": "10",
+            "line_tax": "3665.63",
+            "line_total": "52366.08"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "WorryAdult"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/28/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "WorryAdult"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "WorryAdult"
+      },
+      {
+        "field": "due_date",
+        "value": "04/14/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 45 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "32144.66"
+      },
+      {
+        "field": "tax",
+        "value": "2102.93"
+      },
+      {
+        "field": "po_number",
+        "value": "CUST-92941-3949"
+      },
+      {
+        "field": "merchant_address",
+        "value": "23616 Blackburn Field Sergiochester TN 56955 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "UPS Ground"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "JHE-6216 Extended Navigation System",
+            "line_qty": "4",
+            "line_tax": "507.91",
+            "line_total": "7255.81"
+          },
+          {
+            "line_count": "2",
+            "line_description": "Z-33884 Extended Structural Component",
+            "line_qty": "3",
+            "line_tax": "1061.96",
+            "line_total": "15170.82"
+          },
+          {
+            "line_count": "3",
+            "line_description": "G-220 Ultimate Structural Component",
+            "line_qty": "1",
+            "line_tax": "533.06",
+            "line_total": "7615.10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Jones & Wilson"
+      },
+      {
+        "field": "invoice_date",
+        "value": "12/15/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Jones & Wilson"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Jones & Wilson"
+      },
+      {
+        "field": "due_date",
+        "value": "02/13/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 60 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "20887.36"
+      },
+      {
+        "field": "tax",
+        "value": "1274.42"
+      },
+      {
+        "field": "po_number",
+        "value": "CUST-49173-3617"
+      },
+      {
+        "field": "merchant_address",
+        "value": "1910 Booth Roads Suite 855 Lake Andrea WA 92917 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "FedEx Ground"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "E-003 Industrial Sterilization Equipment",
+            "line_qty": "3",
+            "line_tax": "302.37",
+            "line_total": "4651.88"
+          },
+          {
+            "line_count": "2",
+            "line_description": "P-27136 Premium Monitor",
+            "line_qty": "2",
+            "line_tax": "307.04",
+            "line_total": "4723.74"
+          },
+          {
+            "line_count": "3",
+            "line_description": "ZVK-04389 Extended Laboratory Supply",
+            "line_qty": "10",
+            "line_tax": "419.04",
+            "line_total": "6446.84"
+          },
+          {
+            "line_count": "4",
+            "line_description": "U-5223 High Performance Surgical Instrument",
+            "line_qty": "1",
+            "line_tax": "79.05",
+            "line_total": "1216.19"
+          },
+          {
+            "line_count": "5",
+            "line_description": "VEJ-418 Advanced Laboratory Supply",
+            "line_qty": "1",
+            "line_tax": "166.92",
+            "line_total": "2567.98"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "EveryoneOther Office Supplies Systems"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/24/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "EveryoneOther Office Supplies Systems"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "EveryoneOther Office Supplies Systems"
+      },
+      {
+        "field": "due_date",
+        "value": "03/26/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "14470.87"
+      },
+      {
+        "field": "tax",
+        "value": "406.96"
+      },
+      {
+        "field": "po_number",
+        "value": "2503-3917"
+      },
+      {
+        "field": "merchant_address",
+        "value": "98133 Glover Common North Markborough CO 80347 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "Net Banking"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "VF-45115 Economy Paper",
+            "line_qty": "1",
+            "line_tax": "2.92",
+            "line_total": "100.86"
+          },
+          {
+            "line_count": "2",
+            "line_description": "WLE-047 Deluxe Document Scanner",
+            "line_qty": "2",
+            "line_tax": "7.84",
+            "line_total": "270.45"
+          },
+          {
+            "line_count": "3",
+            "line_description": "MCS-88806 Basic Paper",
+            "line_qty": "1",
+            "line_tax": "3.37",
+            "line_total": "116.22"
+          },
+          {
+            "line_count": "4",
+            "line_description": "F-7826 Premium Ink Cartridge",
+            "line_qty": "100",
+            "line_tax": "392.83",
+            "line_total": "13545.79"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Villanueva & Rice Technologies"
+      },
+      {
+        "field": "invoice_date",
+        "value": "12/05/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Villanueva & Rice Technologies"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Villanueva & Rice Technologies"
+      },
+      {
+        "field": "due_date",
+        "value": "01/04/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "15494.41"
+      },
+      {
+        "field": "tax",
+        "value": "573.05"
+      },
+      {
+        "field": "po_number",
+        "value": "A66113"
+      },
+      {
+        "field": "merchant_address",
+        "value": "61116 Jason Lock Apt. 925 Hayeschester GA 10048 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "Wire Transfer"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "K-0541 Ultimate Label Maker",
+            "line_qty": "50",
+            "line_tax": "509.98",
+            "line_total": "13344.76"
+          },
+          {
+            "line_count": "2",
+            "line_description": "L-35841 Professional Toner",
+            "line_qty": "3",
+            "line_tax": "10.41",
+            "line_total": "260.22"
+          },
+          {
+            "line_count": "3",
+            "line_description": "X-65820 Industrial Paper",
+            "line_qty": "12",
+            "line_tax": "52.66",
+            "line_total": "1316.38"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Reyes & King Aerospace"
+      },
+      {
+        "field": "invoice_date",
+        "value": "03/02/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Reyes & King Aerospace"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Reyes & King Aerospace"
+      },
+      {
+        "field": "due_date",
+        "value": "04/16/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 45 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "17852.30"
+      },
+      {
+        "field": "tax",
+        "value": "0.00"
+      },
+      {
+        "field": "po_number",
+        "value": "K41334"
+      },
+      {
+        "field": "merchant_address",
+        "value": "1209 Solis Ranch Apt. 304 Laurachester PW 15796 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "Credit Card"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "N-7223 Commercial Structural Component",
+            "line_qty": "3",
+            "line_tax": "0.00",
+            "line_total": "17826.63"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Lopez & Johnson Industrial"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/09/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Lopez & Johnson Industrial"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Lopez & Johnson Industrial"
+      },
+      {
+        "field": "due_date",
+        "value": "02/09/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "DUE ON RECEIPT"
+      },
+      {
+        "field": "grand_total",
+        "value": "80571.10"
+      },
+      {
+        "field": "tax",
+        "value": "5009.73"
+      },
+      {
+        "field": "po_number",
+        "value": "C60446"
+      },
+      {
+        "field": "merchant_address",
+        "value": "5744 Gonzalez Knoll Larsonbury NJ 46878 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "UPS Ground"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "NSC-4535 Ultimate Conveyor Belt",
+            "line_qty": "10",
+            "line_tax": "581.62",
+            "line_total": "8772.49"
+          },
+          {
+            "line_count": "2",
+            "line_description": "N-1369 Heavy Duty Bearing",
+            "line_qty": "1",
+            "line_tax": "87.15",
+            "line_total": "1314.45"
+          },
+          {
+            "line_count": "3",
+            "line_description": "VB-343 Ultimate Filter",
+            "line_qty": "24",
+            "line_tax": "809.43",
+            "line_total": "12208.56"
+          },
+          {
+            "line_count": "4",
+            "line_description": "E-73158 Heavy Duty Compressor",
+            "line_qty": "2",
+            "line_tax": "59.67",
+            "line_total": "900.00"
+          },
+          {
+            "line_count": "5",
+            "line_description": "QS-61183 Lightweight Compressor",
+            "line_qty": "1",
+            "line_tax": "18.39",
+            "line_total": "277.38"
+          },
+          {
+            "line_count": "6",
+            "line_description": "P-528 Standard Pump",
+            "line_qty": "100",
+            "line_tax": "3453.47",
+            "line_total": "52088.49"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Jones & Wilson"
+      },
+      {
+        "field": "invoice_date",
+        "value": "01/31/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Jones & Wilson"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Jones & Wilson"
+      },
+      {
+        "field": "due_date",
+        "value": "01/31/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "DUE ON RECEIPT"
+      },
+      {
+        "field": "grand_total",
+        "value": "300576.65"
+      },
+      {
+        "field": "tax",
+        "value": "18345.05"
+      },
+      {
+        "field": "po_number",
+        "value": "CUST-49173-7929"
+      },
+      {
+        "field": "merchant_address",
+        "value": "1910 Booth Roads Suite 855 Lake Andrea WA 92917 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "DHL Express"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "ZVK-04389 Extended Laboratory Supply",
+            "line_qty": "2",
+            "line_tax": "90.77",
+            "line_total": "1396.49"
+          },
+          {
+            "line_count": "2",
+            "line_description": "DB-0296 Basic Surgical Instrument",
+            "line_qty": "100",
+            "line_tax": "6598.02",
+            "line_total": "101508.02"
+          },
+          {
+            "line_count": "3",
+            "line_description": "LNJ-059 Commercial Laboratory Supply",
+            "line_qty": "1",
+            "line_tax": "60.51",
+            "line_total": "930.86"
+          },
+          {
+            "line_count": "4",
+            "line_description": "H-06174 Ultimate Surgical Instrument",
+            "line_qty": "100",
+            "line_tax": "11595.75",
+            "line_total": "178396.23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "EightTruth Enterprises"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/27/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "EightTruth Enterprises"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "EightTruth Enterprises"
+      },
+      {
+        "field": "due_date",
+        "value": "04/13/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 45 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "6445.53"
+      },
+      {
+        "field": "tax",
+        "value": "306.64"
+      },
+      {
+        "field": "po_number",
+        "value": "PO-92218"
+      },
+      {
+        "field": "merchant_address",
+        "value": "1000 Eileen Plaza Suite 691 West Allen WI 20401 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "USPS Priority"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "RQ-592 Heavy Duty Fixture",
+            "line_qty": "12",
+            "line_tax": "225.19",
+            "line_total": "4503.80"
+          },
+          {
+            "line_count": "2",
+            "line_description": "HBD-5712 Standard Assembly Kit",
+            "line_qty": "3",
+            "line_tax": "81.45",
+            "line_total": "1629.10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "ChoiceNone"
+      },
+      {
+        "field": "invoice_date",
+        "value": "11/24/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "ChoiceNone"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "ChoiceNone"
+      },
+      {
+        "field": "due_date",
+        "value": "01/08/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 45 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "5497.95"
+      },
+      {
+        "field": "tax",
+        "value": "0.00"
+      },
+      {
+        "field": "po_number",
+        "value": "CUST-49173-8295"
+      },
+      {
+        "field": "merchant_address",
+        "value": "92349 Brett Drive Apt. 322 Stevenmouth OR 47591 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "FedEx Ground"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "P-5876 Standard Power Supply",
+            "line_qty": "1",
+            "line_tax": "0.00",
+            "line_total": "145.51"
+          },
+          {
+            "line_count": "2",
+            "line_description": "HF-87083 Advanced Sensor",
+            "line_qty": "1",
+            "line_tax": "0.00",
+            "line_total": "659.89"
+          },
+          {
+            "line_count": "3",
+            "line_description": "ZL-40139 High Performance Controller",
+            "line_qty": "5",
+            "line_tax": "0.00",
+            "line_total": "3848.29"
+          },
+          {
+            "line_count": "4",
+            "line_description": "WSA-84124 Premium Display Unit",
+            "line_qty": "1",
+            "line_tax": "0.00",
+            "line_total": "663.16"
+          },
+          {
+            "line_count": "5",
+            "line_description": "ZHJ-160 Basic Battery",
+            "line_qty": "1",
+            "line_tax": "0.00",
+            "line_total": "155.58"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Martin-Kaiser LLC"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/19/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Martin-Kaiser LLC"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Martin-Kaiser LLC"
+      },
+      {
+        "field": "due_date",
+        "value": "04/20/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 60 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "9918.62"
+      },
+      {
+        "field": "tax",
+        "value": "0.00"
+      },
+      {
+        "field": "po_number",
+        "value": "55068-251"
+      },
+      {
+        "field": "merchant_address",
+        "value": "21837 Douglas Cliffs Suite 259 North Melissaport PR 34622 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "Check"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "NSC-4535 Ultimate Conveyor Belt",
+            "line_qty": "1",
+            "line_tax": "0.00",
+            "line_total": "1025.92"
+          },
+          {
+            "line_count": "2",
+            "line_description": "NHP-576 Lightweight Filter",
+            "line_qty": "3",
+            "line_tax": "0.00",
+            "line_total": "2208.45"
+          },
+          {
+            "line_count": "3",
+            "line_description": "WVA-532 Ultimate Filter",
+            "line_qty": "24",
+            "line_tax": "0.00",
+            "line_total": "6684.25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Martin-Kaiser LLC"
+      },
+      {
+        "field": "invoice_date",
+        "value": "10/19/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Martin-Kaiser LLC"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Martin-Kaiser LLC"
+      },
+      {
+        "field": "due_date",
+        "value": "10/19/2024"
+      },
+      {
+        "field": "payment_terms",
+        "value": "DUE ON RECEIPT"
+      },
+      {
+        "field": "grand_total",
+        "value": "18974.38"
+      },
+      {
+        "field": "tax",
+        "value": "0.00"
+      },
+      {
+        "field": "po_number",
+        "value": "54392-805"
+      },
+      {
+        "field": "merchant_address",
+        "value": "21837 Douglas Cliffs Suite 259 North Melissaport PR 34622 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "USPS Priority"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "XHR-23747 Professional Conveyor Belt",
+            "line_qty": "4",
+            "line_tax": "0.00",
+            "line_total": "5107.47"
+          },
+          {
+            "line_count": "2",
+            "line_description": "WVA-532 Ultimate Filter",
+            "line_qty": "50",
+            "line_tax": "0.00",
+            "line_total": "12534.42"
+          },
+          {
+            "line_count": "3",
+            "line_description": "MCN-481 Compact Conveyor Belt",
+            "line_qty": "2",
+            "line_tax": "0.00",
+            "line_total": "1325.01"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "MatterSouthern"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/16/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "MatterSouthern"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "MatterSouthern"
+      },
+      {
+        "field": "due_date",
+        "value": "03/18/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "97717.14"
+      },
+      {
+        "field": "tax",
+        "value": "5531.16"
+      },
+      {
+        "field": "po_number",
+        "value": "PO-89308"
+      },
+      {
+        "field": "merchant_address",
+        "value": "48515 Jay Islands Apt. 470 West Emily MI 80341 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "Check"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "MCN-481 Compact Conveyor Belt",
+            "line_qty": "1",
+            "line_tax": "40.09",
+            "line_total": "668.20"
+          },
+          {
+            "line_count": "2",
+            "line_description": "MP-5125 Lightweight Pump",
+            "line_qty": "2",
+            "line_tax": "38.73",
+            "line_total": "645.43"
+          },
+          {
+            "line_count": "3",
+            "line_description": "V-3394 Economy Bearing",
+            "line_qty": "10",
+            "line_tax": "314.96",
+            "line_total": "5249.30"
+          },
+          {
+            "line_count": "4",
+            "line_description": "WVA-532 Ultimate Filter",
+            "line_qty": "12",
+            "line_tax": "188.00",
+            "line_total": "3133.33"
+          },
+          {
+            "line_count": "5",
+            "line_description": "VR-20715 Deluxe Filter",
+            "line_qty": "100",
+            "line_tax": "4949.38",
+            "line_total": "82489.72"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Scott"
+      },
+      {
+        "field": "invoice_date",
+        "value": "03/03/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Scott"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Scott"
+      },
+      {
+        "field": "due_date",
+        "value": "04/02/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "15206.38"
+      },
+      {
+        "field": "tax",
+        "value": "860.74"
+      },
+      {
+        "field": "po_number",
+        "value": "PO-45825"
+      },
+      {
+        "field": "merchant_address",
+        "value": "288 Michael Brook Johnland VT 70010 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "USPS Priority"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "BAC-943 Ultimate Ink Cartridge",
+            "line_qty": "12",
+            "line_tax": "18.02",
+            "line_total": "300.33"
+          },
+          {
+            "line_count": "2",
+            "line_description": "VE-62229 Ultimate Label Maker",
+            "line_qty": "1",
+            "line_tax": "1.94",
+            "line_total": "32.28"
+          },
+          {
+            "line_count": "3",
+            "line_description": "UC-517 Compact Document Scanner",
+            "line_qty": "100",
+            "line_tax": "840.78",
+            "line_total": "14013.03"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "EightTruth Enterprises"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/24/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "EightTruth Enterprises"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "EightTruth Enterprises"
+      },
+      {
+        "field": "due_date",
+        "value": "04/10/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 45 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "885.79"
+      },
+      {
+        "field": "tax",
+        "value": "42.18"
+      },
+      {
+        "field": "po_number",
+        "value": "727983"
+      },
+      {
+        "field": "merchant_address",
+        "value": "1000 Eileen Plaza Suite 691 West Allen WI 20401 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "USPS Priority"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "S-7908 Compact Fixture",
+            "line_qty": "3",
+            "line_tax": "31.13",
+            "line_total": "622.64"
+          },
+          {
+            "line_count": "2",
+            "line_description": "D-5585 Ultimate Tool Set",
+            "line_qty": "1",
+            "line_tax": "7.17",
+            "line_total": "143.30"
+          },
+          {
+            "line_count": "3",
+            "line_description": "S-4315 Industrial Fixture",
+            "line_qty": "1",
+            "line_tax": "3.88",
+            "line_total": "77.67"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "ChoiceNone"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/08/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "ChoiceNone"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "ChoiceNone"
+      },
+      {
+        "field": "due_date",
+        "value": "04/09/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 60 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "7823.48"
+      },
+      {
+        "field": "tax",
+        "value": "0.00"
+      },
+      {
+        "field": "po_number",
+        "value": "PO-48228"
+      },
+      {
+        "field": "merchant_address",
+        "value": "92349 Brett Drive Apt. 322 Stevenmouth OR 47591 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "PayPal"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "QH-9965 Standard Sensor",
+            "line_qty": "2",
+            "line_tax": "0.00",
+            "line_total": "545.63"
+          },
+          {
+            "line_count": "2",
+            "line_description": "Z-7434 Ultimate Microprocessor",
+            "line_qty": "1",
+            "line_tax": "0.00",
+            "line_total": "709.47"
+          },
+          {
+            "line_count": "3",
+            "line_description": "H-869 High Performance Display Unit",
+            "line_qty": "10",
+            "line_tax": "0.00",
+            "line_total": "5884.25"
+          },
+          {
+            "line_count": "4",
+            "line_description": "HF-87083 Advanced Sensor",
+            "line_qty": "1",
+            "line_tax": "0.00",
+            "line_total": "647.72"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "WorryAdult"
+      },
+      {
+        "field": "invoice_date",
+        "value": "08/01/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "WorryAdult"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "WorryAdult"
+      },
+      {
+        "field": "due_date",
+        "value": "09/15/2024"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 45 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "84115.12"
+      },
+      {
+        "field": "tax",
+        "value": "5502.86"
+      },
+      {
+        "field": "po_number",
+        "value": "PO-27200"
+      },
+      {
+        "field": "merchant_address",
+        "value": "23616 Blackburn Field Sergiochester TN 56955 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "PayPal"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "LQH-6096 Deluxe Cabin Equipment",
+            "line_qty": "1",
+            "line_tax": "66.11",
+            "line_total": "944.42"
+          },
+          {
+            "line_count": "2",
+            "line_description": "YAB-845 Compact Cabin Equipment",
+            "line_qty": "24",
+            "line_tax": "5436.75",
+            "line_total": "77667.84"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "OfficerThan"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/10/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "OfficerThan"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "OfficerThan"
+      },
+      {
+        "field": "due_date",
+        "value": "02/25/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 15 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "357.43"
+      },
+      {
+        "field": "tax",
+        "value": "20.38"
+      },
+      {
+        "field": "po_number",
+        "value": "65680-807"
+      },
+      {
+        "field": "merchant_address",
+        "value": "7831 Robert Centers Apt. 306 Robertsview MA 66830 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "UPS Ground"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "P-1657 Deluxe Memory Module",
+            "line_qty": "2",
+            "line_tax": "20.38",
+            "line_total": "337.05"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Lopez & Johnson Industrial"
+      },
+      {
+        "field": "invoice_date",
+        "value": "01/21/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Lopez & Johnson Industrial"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Lopez & Johnson Industrial"
+      },
+      {
+        "field": "due_date",
+        "value": "01/21/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "DUE ON RECEIPT"
+      },
+      {
+        "field": "grand_total",
+        "value": "8448.28"
+      },
+      {
+        "field": "tax",
+        "value": "525.30"
+      },
+      {
+        "field": "po_number",
+        "value": "C29078"
+      },
+      {
+        "field": "merchant_address",
+        "value": "5744 Gonzalez Knoll Larsonbury NJ 46878 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "PayPal"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "EPW-174 Heavy Duty Valve",
+            "line_qty": "10",
+            "line_tax": "345.86",
+            "line_total": "5216.52"
+          },
+          {
+            "line_count": "2",
+            "line_description": "VR-20715 Deluxe Filter",
+            "line_qty": "3",
+            "line_tax": "179.44",
+            "line_total": "2706.46"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Taylor-Whitehead Construction Enterprises"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/15/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Taylor-Whitehead Construction Enterprises"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Taylor-Whitehead Construction Enterprises"
+      },
+      {
+        "field": "due_date",
+        "value": "03/02/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 15 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "5050.76"
+      },
+      {
+        "field": "tax",
+        "value": "0.00"
+      },
+      {
+        "field": "po_number",
+        "value": "CUST-20545-1070"
+      },
+      {
+        "field": "merchant_address",
+        "value": "2245 Sims Manor Apt. 417 Port Patricia PW 50796 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "FedEx Express"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "NDR-32710 Professional Adhesive",
+            "line_qty": "2",
+            "line_tax": "0.00",
+            "line_total": "156.89"
+          },
+          {
+            "line_count": "2",
+            "line_description": "AP-497 Commercial Fastener",
+            "line_qty": "10",
+            "line_tax": "0.00",
+            "line_total": "4190.67"
+          },
+          {
+            "line_count": "3",
+            "line_description": "XDH-475 Professional Tool",
+            "line_qty": "2",
+            "line_tax": "0.00",
+            "line_total": "703.20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "AlthoughArticle Solutions"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/15/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "AlthoughArticle Solutions"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "AlthoughArticle Solutions"
+      },
+      {
+        "field": "due_date",
+        "value": "03/17/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "18577.04"
+      },
+      {
+        "field": "tax",
+        "value": "1133.81"
+      },
+      {
+        "field": "po_number",
+        "value": "Z50895"
+      },
+      {
+        "field": "merchant_address",
+        "value": "9829 Alyssa Land Apt. 743 Port David KS 96584 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "Check"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "N-84145 High Performance Mold",
+            "line_qty": "24",
+            "line_tax": "924.35",
+            "line_total": "14220.76"
+          },
+          {
+            "line_count": "2",
+            "line_description": "HBD-5712 Standard Assembly Kit",
+            "line_qty": "1",
+            "line_tax": "35.32",
+            "line_total": "543.43"
+          },
+          {
+            "line_count": "3",
+            "line_description": "K-836 Professional Die",
+            "line_qty": "2",
+            "line_tax": "109.56",
+            "line_total": "1685.47"
+          },
+          {
+            "line_count": "4",
+            "line_description": "ZBY-838 Heavy Duty Fixture",
+            "line_qty": "1",
+            "line_tax": "64.58",
+            "line_total": "993.57"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "EightTruth Enterprises"
+      },
+      {
+        "field": "invoice_date",
+        "value": "12/15/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "EightTruth Enterprises"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "EightTruth Enterprises"
+      },
+      {
+        "field": "due_date",
+        "value": "12/15/2024"
+      },
+      {
+        "field": "payment_terms",
+        "value": "DUE ON RECEIPT"
+      },
+      {
+        "field": "grand_total",
+        "value": "33695.22"
+      },
+      {
+        "field": "tax",
+        "value": "1562.07"
+      },
+      {
+        "field": "po_number",
+        "value": "32114-166"
+      },
+      {
+        "field": "merchant_address",
+        "value": "1000 Eileen Plaza Suite 691 West Allen WI 20401 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "USPS Priority"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "K-415 Advanced Die",
+            "line_qty": "100",
+            "line_tax": "1434.84",
+            "line_total": "28696.73"
+          },
+          {
+            "line_count": "2",
+            "line_description": "D-07903 Deluxe Assembly Kit",
+            "line_qty": "2",
+            "line_tax": "81.88",
+            "line_total": "1637.51"
+          },
+          {
+            "line_count": "3",
+            "line_description": "K-836 Professional Die",
+            "line_qty": "1",
+            "line_tax": "0.00",
+            "line_total": "856.87"
+          },
+          {
+            "line_count": "4",
+            "line_description": "N-12275 Advanced Die",
+            "line_qty": "1",
+            "line_tax": "45.35",
+            "line_total": "907.04"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Lopez & Johnson Industrial"
+      },
+      {
+        "field": "invoice_date",
+        "value": "01/16/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Lopez & Johnson Industrial"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Lopez & Johnson Industrial"
+      },
+      {
+        "field": "due_date",
+        "value": "02/15/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "14651.13"
+      },
+      {
+        "field": "tax",
+        "value": "910.97"
+      },
+      {
+        "field": "po_number",
+        "value": "2503-2253"
+      },
+      {
+        "field": "merchant_address",
+        "value": "5744 Gonzalez Knoll Larsonbury NJ 46878 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "USPS Priority"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "N-1369 Heavy Duty Bearing",
+            "line_qty": "12",
+            "line_tax": "910.97",
+            "line_total": "13740.16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Throw GmbH"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/08/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Throw GmbH"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Throw GmbH"
+      },
+      {
+        "field": "due_date",
+        "value": "03/10/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "2/10 NET 30"
+      },
+      {
+        "field": "grand_total",
+        "value": "123.61"
+      },
+      {
+        "field": "tax",
+        "value": "4.75"
+      },
+      {
+        "field": "po_number",
+        "value": "25615-492"
+      },
+      {
+        "field": "merchant_address",
+        "value": "313 Blackburn Isle Suite 095 Seanside AL 15899 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "FedEx Ground"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "MCS-88806 Basic Paper",
+            "line_qty": "1",
+            "line_tax": "4.75",
+            "line_total": "118.86"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Lee-Richards"
+      },
+      {
+        "field": "invoice_date",
+        "value": "12/26/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Lee-Richards"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Lee-Richards"
+      },
+      {
+        "field": "due_date",
+        "value": "02/09/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 45 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "3717.16"
+      },
+      {
+        "field": "tax",
+        "value": "142.73"
+      },
+      {
+        "field": "po_number",
+        "value": "599028"
+      },
+      {
+        "field": "merchant_address",
+        "value": "191 Michael Key Apt. 687 South Kellyberg HI 44887 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "FedEx Ground"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "NES-02330 Commercial Safety Equipment",
+            "line_qty": "1",
+            "line_tax": "10.24",
+            "line_total": "256.04"
+          },
+          {
+            "line_count": "2",
+            "line_description": "XDH-475 Professional Tool",
+            "line_qty": "10",
+            "line_tax": "122.48",
+            "line_total": "3061.96"
+          },
+          {
+            "line_count": "3",
+            "line_description": "VUS-1622 High Performance Fastener",
+            "line_qty": "1",
+            "line_tax": "10.01",
+            "line_total": "250.16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "EightTruth Enterprises"
+      },
+      {
+        "field": "invoice_date",
+        "value": "12/31/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "EightTruth Enterprises"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "EightTruth Enterprises"
+      },
+      {
+        "field": "due_date",
+        "value": "01/30/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "2155.80"
+      },
+      {
+        "field": "tax",
+        "value": "102.66"
+      },
+      {
+        "field": "po_number",
+        "value": "PO-87664"
+      },
+      {
+        "field": "merchant_address",
+        "value": "1000 Eileen Plaza Suite 691 West Allen WI 20401 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "FedEx Ground"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "N-84145 High Performance Mold",
+            "line_qty": "2",
+            "line_tax": "61.40",
+            "line_total": "1227.92"
+          },
+          {
+            "line_count": "2",
+            "line_description": "D-07903 Deluxe Assembly Kit",
+            "line_qty": "1",
+            "line_tax": "41.26",
+            "line_total": "825.22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Gregory-Sanders"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/02/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Gregory-Sanders"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Gregory-Sanders"
+      },
+      {
+        "field": "due_date",
+        "value": "03/19/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 45 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "29622.51"
+      },
+      {
+        "field": "tax",
+        "value": "1139.33"
+      },
+      {
+        "field": "po_number",
+        "value": "CUST-92941-4373"
+      },
+      {
+        "field": "merchant_address",
+        "value": "2178 Kathleen Heights Littlemouth GA 73466 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "FedEx Ground"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "MCS-68926 Extended Cabin Equipment",
+            "line_qty": "12",
+            "line_tax": "1069.10",
+            "line_total": "26727.53"
+          },
+          {
+            "line_count": "2",
+            "line_description": "JHE-6216 Extended Navigation System",
+            "line_qty": "1",
+            "line_tax": "70.23",
+            "line_total": "1755.65"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "WorryAdult"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/24/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "WorryAdult"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "WorryAdult"
+      },
+      {
+        "field": "due_date",
+        "value": "02/24/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "DUE ON RECEIPT"
+      },
+      {
+        "field": "grand_total",
+        "value": "128260.10"
+      },
+      {
+        "field": "tax",
+        "value": "8389.34"
+      },
+      {
+        "field": "po_number",
+        "value": "2503-5478"
+      },
+      {
+        "field": "merchant_address",
+        "value": "23616 Blackburn Field Sergiochester TN 56955 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "FedEx Ground"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "N-7223 Commercial Structural Component",
+            "line_qty": "4",
+            "line_tax": "1655.17",
+            "line_total": "23645.24"
+          },
+          {
+            "line_count": "2",
+            "line_description": "YYV-82795 Advanced Safety Mechanism",
+            "line_qty": "1",
+            "line_tax": "449.74",
+            "line_total": "6424.85"
+          },
+          {
+            "line_count": "3",
+            "line_description": "JHE-6216 Extended Navigation System",
+            "line_qty": "24",
+            "line_tax": "2695.25",
+            "line_total": "38503.54"
+          },
+          {
+            "line_count": "4",
+            "line_description": "LQH-6096 Deluxe Cabin Equipment",
+            "line_qty": "10",
+            "line_tax": "595.69",
+            "line_total": "8509.87"
+          },
+          {
+            "line_count": "5",
+            "line_description": "G-220 Ultimate Structural Component",
+            "line_qty": "4",
+            "line_tax": "2194.41",
+            "line_total": "31348.75"
+          },
+          {
+            "line_count": "6",
+            "line_description": "YAB-845 Compact Cabin Equipment",
+            "line_qty": "3",
+            "line_tax": "799.08",
+            "line_total": "11415.41"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Taylor-Whitehead Construction Enterprises"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/14/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Taylor-Whitehead Construction Enterprises"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Taylor-Whitehead Construction Enterprises"
+      },
+      {
+        "field": "due_date",
+        "value": "03/31/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 45 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "7737.61"
+      },
+      {
+        "field": "tax",
+        "value": "0.00"
+      },
+      {
+        "field": "po_number",
+        "value": "CUST-20545-2055"
+      },
+      {
+        "field": "merchant_address",
+        "value": "2245 Sims Manor Apt. 417 Port Patricia PW 50796 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "FedEx Ground"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "TX-9374 Premium Hardware",
+            "line_qty": "10",
+            "line_tax": "0.00",
+            "line_total": "6494.68"
+          },
+          {
+            "line_count": "2",
+            "line_description": "NES-02330 Commercial Safety Equipment",
+            "line_qty": "2",
+            "line_tax": "0.00",
+            "line_total": "513.48"
+          },
+          {
+            "line_count": "3",
+            "line_description": "KQD-0999 Premium Adhesive",
+            "line_qty": "1",
+            "line_tax": "0.00",
+            "line_total": "644.64"
+          },
+          {
+            "line_count": "4",
+            "line_description": "NDR-32710 Professional Adhesive",
+            "line_qty": "1",
+            "line_tax": "0.00",
+            "line_total": "78.56"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Martin-Kaiser LLC"
+      },
+      {
+        "field": "invoice_date",
+        "value": "01/14/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Martin-Kaiser LLC"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Martin-Kaiser LLC"
+      },
+      {
+        "field": "due_date",
+        "value": "01/29/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 15 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "5957.27"
+      },
+      {
+        "field": "tax",
+        "value": "0.00"
+      },
+      {
+        "field": "po_number",
+        "value": "P57636"
+      },
+      {
+        "field": "merchant_address",
+        "value": "21837 Douglas Cliffs Suite 259 North Melissaport PR 34622 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "UPS Ground"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "K-7005 Basic Compressor",
+            "line_qty": "3",
+            "line_tax": "0.00",
+            "line_total": "1205.78"
+          },
+          {
+            "line_count": "2",
+            "line_description": "AQ-596 High Performance Valve",
+            "line_qty": "3",
+            "line_tax": "0.00",
+            "line_total": "3281.11"
+          },
+          {
+            "line_count": "3",
+            "line_description": "NHP-576 Lightweight Filter",
+            "line_qty": "2",
+            "line_tax": "0.00",
+            "line_total": "1439.69"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "EightTruth Enterprises"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/26/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "EightTruth Enterprises"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "EightTruth Enterprises"
+      },
+      {
+        "field": "due_date",
+        "value": "03/28/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "1786.92"
+      },
+      {
+        "field": "tax",
+        "value": "85.09"
+      },
+      {
+        "field": "po_number",
+        "value": "2503-2750"
+      },
+      {
+        "field": "merchant_address",
+        "value": "1000 Eileen Plaza Suite 691 West Allen WI 20401 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "DHL Express"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "A-7868 Lightweight Assembly Kit",
+            "line_qty": "1",
+            "line_tax": "11.45",
+            "line_total": "229.01"
+          },
+          {
+            "line_count": "2",
+            "line_description": "S-4315 Industrial Fixture",
+            "line_qty": "1",
+            "line_tax": "3.93",
+            "line_total": "78.65"
+          },
+          {
+            "line_count": "3",
+            "line_description": "D-5585 Ultimate Tool Set",
+            "line_qty": "2",
+            "line_tax": "14.52",
+            "line_total": "290.36"
+          },
+          {
+            "line_count": "4",
+            "line_description": "ZZB-620 Basic Assembly Kit",
+            "line_qty": "1",
+            "line_tax": "23.37",
+            "line_total": "467.39"
+          },
+          {
+            "line_count": "5",
+            "line_description": "N-84145 High Performance Mold",
+            "line_qty": "1",
+            "line_tax": "31.82",
+            "line_total": "636.42"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Taylor-Whitehead Construction Enterprises"
+      },
+      {
+        "field": "invoice_date",
+        "value": "01/02/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Taylor-Whitehead Construction Enterprises"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Taylor-Whitehead Construction Enterprises"
+      },
+      {
+        "field": "due_date",
+        "value": "02/16/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 45 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "14584.48"
+      },
+      {
+        "field": "tax",
+        "value": "0.00"
+      },
+      {
+        "field": "po_number",
+        "value": "CUST-20545-4872"
+      },
+      {
+        "field": "merchant_address",
+        "value": "2245 Sims Manor Apt. 417 Port Patricia PW 50796 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "FedEx Express"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "AP-497 Commercial Fastener",
+            "line_qty": "10",
+            "line_tax": "0.00",
+            "line_total": "4161.14"
+          },
+          {
+            "line_count": "2",
+            "line_description": "EW-903 Professional Fastener",
+            "line_qty": "12",
+            "line_tax": "0.00",
+            "line_total": "6792.35"
+          },
+          {
+            "line_count": "3",
+            "line_description": "BF-6299 Economy Hardware",
+            "line_qty": "12",
+            "line_tax": "0.00",
+            "line_total": "3630.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "WorryAdult"
+      },
+      {
+        "field": "invoice_date",
+        "value": "12/16/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "WorryAdult"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "WorryAdult"
+      },
+      {
+        "field": "due_date",
+        "value": "02/14/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 60 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "145444.82"
+      },
+      {
+        "field": "tax",
+        "value": "9513.07"
+      },
+      {
+        "field": "po_number",
+        "value": "A16828"
+      },
+      {
+        "field": "merchant_address",
+        "value": "23616 Blackburn Field Sergiochester TN 56955 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "USPS Priority"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "WA-645 Basic Navigation System",
+            "line_qty": "1",
+            "line_tax": "37.26",
+            "line_total": "532.27"
+          },
+          {
+            "line_count": "2",
+            "line_description": "KN-251 Compact Communication Device",
+            "line_qty": "10",
+            "line_tax": "1842.33",
+            "line_total": "26318.96"
+          },
+          {
+            "line_count": "3",
+            "line_description": "JHE-6216 Extended Navigation System",
+            "line_qty": "2",
+            "line_tax": "254.72",
+            "line_total": "3638.87"
+          },
+          {
+            "line_count": "4",
+            "line_description": "Z-33884 Extended Structural Component",
+            "line_qty": "24",
+            "line_tax": "7249.32",
+            "line_total": "103561.66"
+          },
+          {
+            "line_count": "5",
+            "line_description": "LQH-6096 Deluxe Cabin Equipment",
+            "line_qty": "2",
+            "line_tax": "129.44",
+            "line_total": "1849.08"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Taylor-Whitehead Construction Enterprises"
+      },
+      {
+        "field": "invoice_date",
+        "value": "12/03/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Taylor-Whitehead Construction Enterprises"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Taylor-Whitehead Construction Enterprises"
+      },
+      {
+        "field": "due_date",
+        "value": "01/02/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "521.63"
+      },
+      {
+        "field": "tax",
+        "value": "0.00"
+      },
+      {
+        "field": "po_number",
+        "value": "CUST-49173-1376"
+      },
+      {
+        "field": "merchant_address",
+        "value": "2245 Sims Manor Apt. 417 Port Patricia PW 50796 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "Wire Transfer"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "TMM-414 Standard Tool",
+            "line_qty": "1",
+            "line_tax": "0.00",
+            "line_total": "346.22"
+          },
+          {
+            "line_count": "2",
+            "line_description": "E-616 Commercial Building Material",
+            "line_qty": "2",
+            "line_tax": "0.00",
+            "line_total": "127.30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Scott-Butler"
+      },
+      {
+        "field": "invoice_date",
+        "value": "10/17/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Scott-Butler"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Scott-Butler"
+      },
+      {
+        "field": "due_date",
+        "value": "11/16/2024"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "628.89"
+      },
+      {
+        "field": "tax",
+        "value": "25.52"
+      },
+      {
+        "field": "po_number",
+        "value": "PO-44891"
+      },
+      {
+        "field": "merchant_address",
+        "value": "33626 Tami Loop Suite 312 Holmestown MO 57935 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "FedEx Ground"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "TXZ-35615 High Performance Controller",
+            "line_qty": "2",
+            "line_tax": "25.52",
+            "line_total": "603.37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "MatterSouthern"
+      },
+      {
+        "field": "invoice_date",
+        "value": "12/28/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "MatterSouthern"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "MatterSouthern"
+      },
+      {
+        "field": "due_date",
+        "value": "01/27/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "1880.52"
+      },
+      {
+        "field": "tax",
+        "value": "105.08"
+      },
+      {
+        "field": "po_number",
+        "value": "CUST-94907-8506"
+      },
+      {
+        "field": "merchant_address",
+        "value": "48515 Jay Islands Apt. 470 West Emily MI 80341 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "Check"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "VB-343 Ultimate Filter",
+            "line_qty": "3",
+            "line_tax": "105.08",
+            "line_total": "1751.39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Scott-Butler"
+      },
+      {
+        "field": "invoice_date",
+        "value": "01/15/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Scott-Butler"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Scott-Butler"
+      },
+      {
+        "field": "due_date",
+        "value": "02/14/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "1768.45"
+      },
+      {
+        "field": "tax",
+        "value": "71.25"
+      },
+      {
+        "field": "po_number",
+        "value": "2503-1087"
+      },
+      {
+        "field": "merchant_address",
+        "value": "33626 Tami Loop Suite 312 Holmestown MO 57935 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "USPS Priority"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "ZHJ-160 Basic Battery",
+            "line_qty": "2",
+            "line_tax": "13.20",
+            "line_total": "312.16"
+          },
+          {
+            "line_count": "2",
+            "line_description": "QH-9965 Standard Sensor",
+            "line_qty": "1",
+            "line_tax": "11.62",
+            "line_total": "274.73"
+          },
+          {
+            "line_count": "3",
+            "line_description": "WSA-84124 Premium Display Unit",
+            "line_qty": "1",
+            "line_tax": "28.36",
+            "line_total": "670.51"
+          },
+          {
+            "line_count": "4",
+            "line_description": "TH-77701 Professional Battery",
+            "line_qty": "2",
+            "line_tax": "18.07",
+            "line_total": "427.16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Lopez & Johnson Industrial"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/16/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Lopez & Johnson Industrial"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Lopez & Johnson Industrial"
+      },
+      {
+        "field": "due_date",
+        "value": "02/16/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "COD"
+      },
+      {
+        "field": "grand_total",
+        "value": "3351.61"
+      },
+      {
+        "field": "tax",
+        "value": "208.39"
+      },
+      {
+        "field": "po_number",
+        "value": "F51358"
+      },
+      {
+        "field": "merchant_address",
+        "value": "5744 Gonzalez Knoll Larsonbury NJ 46878 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "Wire Transfer"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "TN-52816 Extended Pump",
+            "line_qty": "1",
+            "line_tax": "34.70",
+            "line_total": "523.42"
+          },
+          {
+            "line_count": "2",
+            "line_description": "E-901 Professional Pump",
+            "line_qty": "2",
+            "line_tax": "88.20",
+            "line_total": "1330.37"
+          },
+          {
+            "line_count": "3",
+            "line_description": "J-45502 Basic Valve",
+            "line_qty": "1",
+            "line_tax": "27.95",
+            "line_total": "421.53"
+          },
+          {
+            "line_count": "4",
+            "line_description": "CFW-7997 Economy Motor",
+            "line_qty": "2",
+            "line_tax": "57.54",
+            "line_total": "867.90"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "EightTruth Enterprises"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/08/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "EightTruth Enterprises"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "EightTruth Enterprises"
+      },
+      {
+        "field": "due_date",
+        "value": "03/25/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 45 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "4441.72"
+      },
+      {
+        "field": "tax",
+        "value": "211.51"
+      },
+      {
+        "field": "po_number",
+        "value": "F32058"
+      },
+      {
+        "field": "merchant_address",
+        "value": "1000 Eileen Plaza Suite 691 West Allen WI 20401 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "FedEx Ground"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "D-07903 Deluxe Assembly Kit",
+            "line_qty": "1",
+            "line_tax": "42.27",
+            "line_total": "845.30"
+          },
+          {
+            "line_count": "2",
+            "line_description": "ZBY-838 Heavy Duty Fixture",
+            "line_qty": "2",
+            "line_tax": "98.16",
+            "line_total": "1963.16"
+          },
+          {
+            "line_count": "3",
+            "line_description": "RQ-592 Heavy Duty Fixture",
+            "line_qty": "1",
+            "line_tax": "20.47",
+            "line_total": "409.47"
+          },
+          {
+            "line_count": "4",
+            "line_description": "K-2265 Advanced Fixture",
+            "line_qty": "2",
+            "line_tax": "50.61",
+            "line_total": "1012.28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Johnson"
+      },
+      {
+        "field": "invoice_date",
+        "value": "12/29/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Johnson"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Johnson"
+      },
+      {
+        "field": "due_date",
+        "value": "01/28/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "1019.65"
+      },
+      {
+        "field": "tax",
+        "value": "57.75"
+      },
+      {
+        "field": "po_number",
+        "value": "J87883"
+      },
+      {
+        "field": "merchant_address",
+        "value": "78978 Aaron Glens Apt. 396 Port Christinachester MA 29473 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "UPS Ground"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "QSY-1910 Basic Tool Set",
+            "line_qty": "10",
+            "line_tax": "57.75",
+            "line_total": "923.98"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "WorryAdult"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/13/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "WorryAdult"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "WorryAdult"
+      },
+      {
+        "field": "due_date",
+        "value": "02/13/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "DUE ON RECEIPT"
+      },
+      {
+        "field": "grand_total",
+        "value": "11914.64"
+      },
+      {
+        "field": "tax",
+        "value": "777.95"
+      },
+      {
+        "field": "po_number",
+        "value": "PO-88943"
+      },
+      {
+        "field": "merchant_address",
+        "value": "23616 Blackburn Field Sergiochester TN 56955 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "Check"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "JHE-6216 Extended Navigation System",
+            "line_qty": "4",
+            "line_tax": "509.74",
+            "line_total": "7282.04"
+          },
+          {
+            "line_count": "2",
+            "line_description": "YAB-845 Compact Cabin Equipment",
+            "line_qty": "1",
+            "line_tax": "268.21",
+            "line_total": "3831.54"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Smith"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/02/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Smith"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Smith"
+      },
+      {
+        "field": "due_date",
+        "value": "02/02/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "COD"
+      },
+      {
+        "field": "grand_total",
+        "value": "11091.37"
+      },
+      {
+        "field": "tax",
+        "value": "652.43"
+      },
+      {
+        "field": "po_number",
+        "value": "2503-7020"
+      },
+      {
+        "field": "merchant_address",
+        "value": "283 Lucas Glen Apt. 830 New Laura TX 83226 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "Check"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "PP-390 Economy Calibration Tool",
+            "line_qty": "4",
+            "line_tax": "260.06",
+            "line_total": "4161.00"
+          },
+          {
+            "line_count": "2",
+            "line_description": "E-031 Compact Design Software",
+            "line_qty": "1",
+            "line_tax": "77.28",
+            "line_total": "1236.44"
+          },
+          {
+            "line_count": "3",
+            "line_description": "BAN-11492 Premium Precision Instrument",
+            "line_qty": "1",
+            "line_tax": "128.52",
+            "line_total": "2056.33"
+          },
+          {
+            "line_count": "4",
+            "line_description": "KC-69315 Ultimate Prototyping Material",
+            "line_qty": "2",
+            "line_tax": "186.57",
+            "line_total": "2985.17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Cruz"
+      },
+      {
+        "field": "invoice_date",
+        "value": "01/21/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Cruz"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Cruz"
+      },
+      {
+        "field": "due_date",
+        "value": "03/07/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 45 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "2264.60"
+      },
+      {
+        "field": "tax",
+        "value": "117.54"
+      },
+      {
+        "field": "po_number",
+        "value": "PO-72601"
+      },
+      {
+        "field": "merchant_address",
+        "value": "5968 Lowery Isle Apt. 411 Frankmouth NE 07598 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "FedEx Ground"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "QS-61183 Lightweight Compressor",
+            "line_qty": "2",
+            "line_tax": "29.77",
+            "line_total": "541.24"
+          },
+          {
+            "line_count": "2",
+            "line_description": "ATP-317 Premium Bearing",
+            "line_qty": "3",
+            "line_tax": "58.46",
+            "line_total": "1062.99"
+          },
+          {
+            "line_count": "3",
+            "line_description": "TN-52816 Extended Pump",
+            "line_qty": "1",
+            "line_tax": "29.31",
+            "line_total": "532.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Hale Laboratory GmbH"
+      },
+      {
+        "field": "invoice_date",
+        "value": "12/17/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Hale Laboratory GmbH"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Hale Laboratory GmbH"
+      },
+      {
+        "field": "due_date",
+        "value": "01/16/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "96.54"
+      },
+      {
+        "field": "tax",
+        "value": "5.12"
+      },
+      {
+        "field": "po_number",
+        "value": "CUST-70245-1741"
+      },
+      {
+        "field": "merchant_address",
+        "value": "16849 Patricia Corner South Bradfort AZ 95488 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "USPS Priority"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "QX-9071 Professional Chemical",
+            "line_qty": "1",
+            "line_tax": "5.12",
+            "line_total": "91.42"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Lopez & Johnson Industrial"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/20/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Lopez & Johnson Industrial"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Lopez & Johnson Industrial"
+      },
+      {
+        "field": "due_date",
+        "value": "03/22/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "19344.39"
+      },
+      {
+        "field": "tax",
+        "value": "1375.91"
+      },
+      {
+        "field": "po_number",
+        "value": "98265-208"
+      },
+      {
+        "field": "merchant_address",
+        "value": "5744 Gonzalez Knoll Larsonbury NJ 46878 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "USPS Priority"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "QYK-61200 Professional Pump",
+            "line_qty": "4",
+            "line_tax": "77.37",
+            "line_total": "1166.95"
+          },
+          {
+            "line_count": "2",
+            "line_description": "VR-20715 Deluxe Filter",
+            "line_qty": "5",
+            "line_tax": "307.32",
+            "line_total": "4635.22"
+          },
+          {
+            "line_count": "3",
+            "line_description": "E-901 Professional Pump",
+            "line_qty": "2",
+            "line_tax": "283.19",
+            "line_total": "1328.30"
+          },
+          {
+            "line_count": "4",
+            "line_description": "AQ-596 High Performance Valve",
+            "line_qty": "5",
+            "line_tax": "354.14",
+            "line_total": "5500.32"
+          },
+          {
+            "line_count": "5",
+            "line_description": "E-73158 Heavy Duty Compressor",
+            "line_qty": "4",
+            "line_tax": "120.60",
+            "line_total": "1819.00"
+          },
+          {
+            "line_count": "6",
+            "line_description": "K-7005 Basic Compressor",
+            "line_qty": "10",
+            "line_tax": "233.29",
+            "line_total": "3518.69"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "AmongChance Ltd."
+      },
+      {
+        "field": "invoice_date",
+        "value": "10/07/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "AmongChance Ltd."
+      },
+      {
+        "field": "merchant_chain",
+        "value": "AmongChance Ltd."
+      },
+      {
+        "field": "due_date",
+        "value": "11/21/2024"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 45 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "4790.05"
+      },
+      {
+        "field": "tax",
+        "value": "270.83"
+      },
+      {
+        "field": "po_number",
+        "value": "594392"
+      },
+      {
+        "field": "merchant_address",
+        "value": "8324 John Square Apt. 346 Watsonchester IA 38497 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "FedEx Ground"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "BMH-02146 Heavy Duty Chemical",
+            "line_qty": "4",
+            "line_tax": "270.83",
+            "line_total": "4513.87"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "ChoiceNone"
+      },
+      {
+        "field": "invoice_date",
+        "value": "01/29/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "ChoiceNone"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "ChoiceNone"
+      },
+      {
+        "field": "due_date",
+        "value": "01/29/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "DUE ON RECEIPT"
+      },
+      {
+        "field": "grand_total",
+        "value": "22364.51"
+      },
+      {
+        "field": "tax",
+        "value": "0.00"
+      },
+      {
+        "field": "po_number",
+        "value": "Z90149"
+      },
+      {
+        "field": "merchant_address",
+        "value": "92349 Brett Drive Apt. 322 Stevenmouth OR 47591 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "Check"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "WSA-84124 Premium Display Unit",
+            "line_qty": "2",
+            "line_tax": "0.00",
+            "line_total": "1349.68"
+          },
+          {
+            "line_count": "2",
+            "line_description": "P-1657 Deluxe Memory Module",
+            "line_qty": "50",
+            "line_tax": "0.00",
+            "line_total": "7476.56"
+          },
+          {
+            "line_count": "3",
+            "line_description": "NE-47510 Compact Power Supply",
+            "line_qty": "2",
+            "line_tax": "0.00",
+            "line_total": "558.79"
+          },
+          {
+            "line_count": "4",
+            "line_description": "Q-046 Heavy Duty Battery",
+            "line_qty": "3",
+            "line_tax": "0.00",
+            "line_total": "570.65"
+          },
+          {
+            "line_count": "5",
+            "line_description": "TH-77701 Professional Battery",
+            "line_qty": "24",
+            "line_tax": "0.00",
+            "line_total": "4629.99"
+          },
+          {
+            "line_count": "6",
+            "line_description": "Z-7434 Ultimate Microprocessor",
+            "line_qty": "10",
+            "line_tax": "0.00",
+            "line_total": "6379.07"
+          },
+          {
+            "line_count": "7",
+            "line_description": "QH-9965 Standard Sensor",
+            "line_qty": "5",
+            "line_tax": "0.00",
+            "line_total": "1354.59"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Smith"
+      },
+      {
+        "field": "invoice_date",
+        "value": "11/08/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Smith"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Smith"
+      },
+      {
+        "field": "due_date",
+        "value": "01/07/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 60 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "16823.58"
+      },
+      {
+        "field": "tax",
+        "value": "989.28"
+      },
+      {
+        "field": "po_number",
+        "value": "97432-594"
+      },
+      {
+        "field": "merchant_address",
+        "value": "283 Lucas Glen Apt. 830 New Laura TX 83226 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "Check"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "QVQ-9735 Standard Design Software",
+            "line_qty": "24",
+            "line_tax": "167.71",
+            "line_total": "2683.31"
+          },
+          {
+            "line_count": "2",
+            "line_description": "AK-350 Ultimate Prototyping Material",
+            "line_qty": "24",
+            "line_tax": "821.57",
+            "line_total": "13145.17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Election GmbH"
+      },
+      {
+        "field": "invoice_date",
+        "value": "11/09/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Election GmbH"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Election GmbH"
+      },
+      {
+        "field": "due_date",
+        "value": "12/09/2024"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "3788.30"
+      },
+      {
+        "field": "tax",
+        "value": "188.28"
+      },
+      {
+        "field": "po_number",
+        "value": "CUST-70245-6575"
+      },
+      {
+        "field": "merchant_address",
+        "value": "400 Charles Ville Suite 561 New John VA 87139 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "Net Banking"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "WLE-047 Deluxe Document Scanner",
+            "line_qty": "10",
+            "line_tax": "67.81",
+            "line_total": "1279.34"
+          },
+          {
+            "line_count": "2",
+            "line_description": "D-172 Advanced Binding Equipment",
+            "line_qty": "10",
+            "line_tax": "120.47",
+            "line_total": "2273.10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Villanueva & Rice Technologies"
+      },
+      {
+        "field": "invoice_date",
+        "value": "09/19/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Villanueva & Rice Technologies"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Villanueva & Rice Technologies"
+      },
+      {
+        "field": "due_date",
+        "value": "11/03/2024"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 45 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "2599.34"
+      },
+      {
+        "field": "tax",
+        "value": "99.98"
+      },
+      {
+        "field": "po_number",
+        "value": "S75325"
+      },
+      {
+        "field": "merchant_address",
+        "value": "61116 Jason Lock Apt. 925 Hayeschester GA 10048 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "Wire Transfer"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "U-856 Heavy Duty Binding Equipment",
+            "line_qty": "2",
+            "line_tax": "3.27",
+            "line_total": "81.76"
+          },
+          {
+            "line_count": "2",
+            "line_description": "UC-517 Compact Document Scanner",
+            "line_qty": "1",
+            "line_tax": "6.09",
+            "line_total": "152.15"
+          },
+          {
+            "line_count": "3",
+            "line_description": "F-7826 Premium Ink Cartridge",
+            "line_qty": "3",
+            "line_tax": "16.94",
+            "line_total": "423.56"
+          },
+          {
+            "line_count": "4",
+            "line_description": "GM-97746 Extended Document Scanner",
+            "line_qty": "10",
+            "line_tax": "73.68",
+            "line_total": "1841.89"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Villanueva & Rice Technologies"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/25/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Villanueva & Rice Technologies"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Villanueva & Rice Technologies"
+      },
+      {
+        "field": "due_date",
+        "value": "02/25/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "DUE ON RECEIPT"
+      },
+      {
+        "field": "grand_total",
+        "value": "986.79"
+      },
+      {
+        "field": "tax",
+        "value": "37.95"
+      },
+      {
+        "field": "po_number",
+        "value": "64186-519"
+      },
+      {
+        "field": "merchant_address",
+        "value": "61116 Jason Lock Apt. 925 Hayeschester GA 10048 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "PayPal"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "F-7826 Premium Ink Cartridge",
+            "line_qty": "1",
+            "line_tax": "5.64",
+            "line_total": "141.05"
+          },
+          {
+            "line_count": "2",
+            "line_description": "MCS-88806 Basic Paper",
+            "line_qty": "5",
+            "line_tax": "23.70",
+            "line_total": "592.53"
+          },
+          {
+            "line_count": "3",
+            "line_description": "L-35841 Professional Toner",
+            "line_qty": "1",
+            "line_tax": "3.50",
+            "line_total": "87.46"
+          },
+          {
+            "line_count": "4",
+            "line_description": "TL-27722 Premium Paper",
+            "line_qty": "5",
+            "line_tax": "5.11",
+            "line_total": "127.80"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "AlthoughArticle Solutions"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/22/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "AlthoughArticle Solutions"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "AlthoughArticle Solutions"
+      },
+      {
+        "field": "due_date",
+        "value": "03/24/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "2/10 NET 30"
+      },
+      {
+        "field": "grand_total",
+        "value": "8728.55"
+      },
+      {
+        "field": "tax",
+        "value": "532.73"
+      },
+      {
+        "field": "po_number",
+        "value": "2503-9647"
+      },
+      {
+        "field": "merchant_address",
+        "value": "9829 Alyssa Land Apt. 743 Port David KS 96584 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "DHL Express"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "K-836 Professional Die",
+            "line_qty": "10",
+            "line_tax": "481.43",
+            "line_total": "7406.55"
+          },
+          {
+            "line_count": "2",
+            "line_description": "QSY-1910 Basic Tool Set",
+            "line_qty": "1",
+            "line_tax": "6.29",
+            "line_total": "96.78"
+          },
+          {
+            "line_count": "3",
+            "line_description": "S-4315 Industrial Fixture",
+            "line_qty": "10",
+            "line_tax": "45.01",
+            "line_total": "692.49"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Taylor-Whitehead Construction Enterprises"
+      },
+      {
+        "field": "invoice_date",
+        "value": "12/12/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Taylor-Whitehead Construction Enterprises"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Taylor-Whitehead Construction Enterprises"
+      },
+      {
+        "field": "due_date",
+        "value": "01/26/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 45 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "35191.75"
+      },
+      {
+        "field": "tax",
+        "value": "0.00"
+      },
+      {
+        "field": "po_number",
+        "value": "CUST-49173-1456"
+      },
+      {
+        "field": "merchant_address",
+        "value": "2245 Sims Manor Apt. 417 Port Patricia PW 50796 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "PayPal"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "N-4220 Deluxe Hardware",
+            "line_qty": "50",
+            "line_tax": "0.00",
+            "line_total": "30697.21"
+          },
+          {
+            "line_count": "2",
+            "line_description": "XDH-475 Professional Tool",
+            "line_qty": "12",
+            "line_tax": "0.00",
+            "line_total": "4036.48"
+          },
+          {
+            "line_count": "3",
+            "line_description": "E-616 Commercial Building Material",
+            "line_qty": "4",
+            "line_tax": "0.00",
+            "line_total": "250.73"
+          },
+          {
+            "line_count": "4",
+            "line_description": "FX-24172 Deluxe Hardware",
+            "line_qty": "2",
+            "line_tax": "0.00",
+            "line_total": "168.28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Gregory-Sanders"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/05/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Gregory-Sanders"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Gregory-Sanders"
+      },
+      {
+        "field": "due_date",
+        "value": "02/05/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "DUE ON RECEIPT"
+      },
+      {
+        "field": "grand_total",
+        "value": "12163.32"
+      },
+      {
+        "field": "tax",
+        "value": "467.82"
+      },
+      {
+        "field": "po_number",
+        "value": "D29209"
+      },
+      {
+        "field": "merchant_address",
+        "value": "2178 Kathleen Heights Littlemouth GA 73466 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "USPS Priority"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "SHH-465 Economy Safety Mechanism",
+            "line_qty": "2",
+            "line_tax": "182.89",
+            "line_total": "4572.33"
+          },
+          {
+            "line_count": "2",
+            "line_description": "MCS-68926 Extended Cabin Equipment",
+            "line_qty": "3",
+            "line_tax": "284.93",
+            "line_total": "7123.17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Martin-Kaiser LLC"
+      },
+      {
+        "field": "invoice_date",
+        "value": "11/24/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Martin-Kaiser LLC"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Martin-Kaiser LLC"
+      },
+      {
+        "field": "due_date",
+        "value": "12/24/2024"
+      },
+      {
+        "field": "payment_terms",
+        "value": "2/10 NET 30"
+      },
+      {
+        "field": "grand_total",
+        "value": "44811.46"
+      },
+      {
+        "field": "tax",
+        "value": "0.00"
+      },
+      {
+        "field": "po_number",
+        "value": "2503-3668"
+      },
+      {
+        "field": "merchant_address",
+        "value": "21837 Douglas Cliffs Suite 259 North Melissaport PR 34622 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "Wire Transfer"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "XSK-0076 Lightweight Valve",
+            "line_qty": "1",
+            "line_tax": "0.00",
+            "line_total": "480.43"
+          },
+          {
+            "line_count": "2",
+            "line_description": "VR-20715 Deluxe Filter",
+            "line_qty": "50",
+            "line_tax": "0.00",
+            "line_total": "40206.80"
+          },
+          {
+            "line_count": "3",
+            "line_description": "J-5840 Professional Motor",
+            "line_qty": "2",
+            "line_tax": "0.00",
+            "line_total": "2370.32"
+          },
+          {
+            "line_count": "4",
+            "line_description": "VB-343 Ultimate Filter",
+            "line_qty": "1",
+            "line_tax": "0.00",
+            "line_total": "589.31"
+          },
+          {
+            "line_count": "5",
+            "line_description": "XKH-16117 Industrial Filter",
+            "line_qty": "1",
+            "line_tax": "0.00",
+            "line_total": "1164.60"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Taylor-Whitehead Construction Enterprises"
+      },
+      {
+        "field": "invoice_date",
+        "value": "01/20/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Taylor-Whitehead Construction Enterprises"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Taylor-Whitehead Construction Enterprises"
+      },
+      {
+        "field": "due_date",
+        "value": "02/19/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "10946.06"
+      },
+      {
+        "field": "tax",
+        "value": "0.00"
+      },
+      {
+        "field": "po_number",
+        "value": "47156-320"
+      },
+      {
+        "field": "merchant_address",
+        "value": "2245 Sims Manor Apt. 417 Port Patricia PW 50796 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "Check"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "VUS-1622 High Performance Fastener",
+            "line_qty": "10",
+            "line_tax": "0.00",
+            "line_total": "2316.11"
+          },
+          {
+            "line_count": "2",
+            "line_description": "EW-903 Professional Fastener",
+            "line_qty": "2",
+            "line_tax": "0.00",
+            "line_total": "1198.14"
+          },
+          {
+            "line_count": "3",
+            "line_description": "BF-6299 Economy Hardware",
+            "line_qty": "24",
+            "line_tax": "0.00",
+            "line_total": "6931.93"
+          },
+          {
+            "line_count": "4",
+            "line_description": "NES-02330 Commercial Safety Equipment",
+            "line_qty": "2",
+            "line_tax": "0.00",
+            "line_total": "499.88"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Lopez & Johnson Industrial"
+      },
+      {
+        "field": "invoice_date",
+        "value": "12/21/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Lopez & Johnson Industrial"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Lopez & Johnson Industrial"
+      },
+      {
+        "field": "due_date",
+        "value": "01/05/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 15 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "71172.53"
+      },
+      {
+        "field": "tax",
+        "value": "4425.34"
+      },
+      {
+        "field": "po_number",
+        "value": "699780"
+      },
+      {
+        "field": "merchant_address",
+        "value": "5744 Gonzalez Knoll Larsonbury NJ 46878 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "DHL Express"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "E-73158 Heavy Duty Compressor",
+            "line_qty": "3",
+            "line_tax": "91.59",
+            "line_total": "1381.47"
+          },
+          {
+            "line_count": "2",
+            "line_description": "QS-61183 Lightweight Compressor",
+            "line_qty": "1",
+            "line_tax": "18.35",
+            "line_total": "276.82"
+          },
+          {
+            "line_count": "3",
+            "line_description": "P-528 Standard Pump",
+            "line_qty": "100",
+            "line_tax": "3480.82",
+            "line_total": "52501.08"
+          },
+          {
+            "line_count": "4",
+            "line_description": "NSC-4535 Ultimate Conveyor Belt",
+            "line_qty": "12",
+            "line_tax": "715.33",
+            "line_total": "10789.23"
+          },
+          {
+            "line_count": "5",
+            "line_description": "PB-859 Ultimate Compressor",
+            "line_qty": "2",
+            "line_tax": "119.25",
+            "line_total": "1798.59"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "WorryAdult"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/03/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "WorryAdult"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "WorryAdult"
+      },
+      {
+        "field": "due_date",
+        "value": "03/05/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "4212.44"
+      },
+      {
+        "field": "tax",
+        "value": "274.05"
+      },
+      {
+        "field": "po_number",
+        "value": "PO-60070"
+      },
+      {
+        "field": "merchant_address",
+        "value": "23616 Blackburn Field Sergiochester TN 56955 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "FedEx Express"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "EQB-352 Ultimate Cabin Equipment",
+            "line_qty": "1",
+            "line_tax": "237.08",
+            "line_total": "3386.90"
+          },
+          {
+            "line_count": "2",
+            "line_description": "WA-645 Basic Navigation System",
+            "line_qty": "1",
+            "line_tax": "36.97",
+            "line_total": "528.16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Lee-Richards"
+      },
+      {
+        "field": "invoice_date",
+        "value": "03/01/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Lee-Richards"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Lee-Richards"
+      },
+      {
+        "field": "due_date",
+        "value": "03/31/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "3544.48"
+      },
+      {
+        "field": "tax",
+        "value": "135.18"
+      },
+      {
+        "field": "po_number",
+        "value": "PO-25855"
+      },
+      {
+        "field": "merchant_address",
+        "value": "191 Michael Key Apt. 687 South Kellyberg HI 44887 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "DHL Express"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "NDR-32710 Professional Adhesive",
+            "line_qty": "1",
+            "line_tax": "3.08",
+            "line_total": "76.92"
+          },
+          {
+            "line_count": "2",
+            "line_description": "E-616 Commercial Building Material",
+            "line_qty": "50",
+            "line_tax": "106.88",
+            "line_total": "2672.10"
+          },
+          {
+            "line_count": "3",
+            "line_description": "N-4220 Deluxe Hardware",
+            "line_qty": "1",
+            "line_tax": "25.22",
+            "line_total": "630.39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Jones & Wilson"
+      },
+      {
+        "field": "invoice_date",
+        "value": "01/09/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Jones & Wilson"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Jones & Wilson"
+      },
+      {
+        "field": "due_date",
+        "value": "02/08/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "140441.62"
+      },
+      {
+        "field": "tax",
+        "value": "8571.55"
+      },
+      {
+        "field": "po_number",
+        "value": "666692"
+      },
+      {
+        "field": "merchant_address",
+        "value": "1910 Booth Roads Suite 855 Lake Andrea WA 92917 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "PayPal"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "W-4152 Standard Monitor",
+            "line_qty": "100",
+            "line_tax": "8571.55",
+            "line_total": "131870.07"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Walker"
+      },
+      {
+        "field": "invoice_date",
+        "value": "11/20/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Walker"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Walker"
+      },
+      {
+        "field": "due_date",
+        "value": "11/20/2024"
+      },
+      {
+        "field": "payment_terms",
+        "value": "COD"
+      },
+      {
+        "field": "grand_total",
+        "value": "4773.24"
+      },
+      {
+        "field": "tax",
+        "value": "253.13"
+      },
+      {
+        "field": "po_number",
+        "value": "468488"
+      },
+      {
+        "field": "merchant_address",
+        "value": "421 Robert Glens North Meganburgh AZ 73492 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "ACH"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "XUG-52580 Economy Signal Processor",
+            "line_qty": "2",
+            "line_tax": "122.30",
+            "line_total": "2183.94"
+          },
+          {
+            "line_count": "2",
+            "line_description": "BB-75197 Deluxe Testing Apparatus",
+            "line_qty": "1",
+            "line_tax": "130.83",
+            "line_total": "2336.17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "OfficerThan"
+      },
+      {
+        "field": "invoice_date",
+        "value": "12/05/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "OfficerThan"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "OfficerThan"
+      },
+      {
+        "field": "due_date",
+        "value": "01/04/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "1069.60"
+      },
+      {
+        "field": "tax",
+        "value": "62.92"
+      },
+      {
+        "field": "po_number",
+        "value": "CUST-70245-5282"
+      },
+      {
+        "field": "merchant_address",
+        "value": "7831 Robert Centers Apt. 306 Robertsview MA 66830 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "USPS Priority"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "Z-7434 Ultimate Microprocessor",
+            "line_qty": "1",
+            "line_tax": "45.76",
+            "line_total": "732.08"
+          },
+          {
+            "line_count": "2",
+            "line_description": "NE-47510 Compact Power Supply",
+            "line_qty": "1",
+            "line_tax": "17.16",
+            "line_total": "274.60"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Lopez & Johnson Industrial"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/26/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Lopez & Johnson Industrial"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Lopez & Johnson Industrial"
+      },
+      {
+        "field": "due_date",
+        "value": "02/26/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "DUE ON RECEIPT"
+      },
+      {
+        "field": "grand_total",
+        "value": "2133.11"
+      },
+      {
+        "field": "tax",
+        "value": "132.63"
+      },
+      {
+        "field": "po_number",
+        "value": "2503-8293"
+      },
+      {
+        "field": "merchant_address",
+        "value": "5744 Gonzalez Knoll Larsonbury NJ 46878 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "ACH"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "K-7005 Basic Compressor",
+            "line_qty": "5",
+            "line_tax": "132.63",
+            "line_total": "2000.48"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Lee-Gonzales Inc."
+      },
+      {
+        "field": "invoice_date",
+        "value": "01/16/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Lee-Gonzales Inc."
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Lee-Gonzales Inc."
+      },
+      {
+        "field": "due_date",
+        "value": "03/02/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 45 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "7064.48"
+      },
+      {
+        "field": "tax",
+        "value": "399.88"
+      },
+      {
+        "field": "po_number",
+        "value": "C90405"
+      },
+      {
+        "field": "merchant_address",
+        "value": "210 Clarke Stravenue Apt. 838 Newmanhaven IA 10614 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "FedEx Express"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "S-7908 Compact Fixture",
+            "line_qty": "10",
+            "line_tax": "109.65",
+            "line_total": "1827.43"
+          },
+          {
+            "line_count": "2",
+            "line_description": "S-4315 Industrial Fixture",
+            "line_qty": "4",
+            "line_tax": "18.60",
+            "line_total": "310.02"
+          },
+          {
+            "line_count": "3",
+            "line_description": "NV-3259 Deluxe Raw Material",
+            "line_qty": "3",
+            "line_tax": "104.56",
+            "line_total": "1742.70"
+          },
+          {
+            "line_count": "4",
+            "line_description": "K-415 Advanced Die",
+            "line_qty": "10",
+            "line_tax": "167.07",
+            "line_total": "2784.45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Smith"
+      },
+      {
+        "field": "invoice_date",
+        "value": "01/19/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Smith"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Smith"
+      },
+      {
+        "field": "due_date",
+        "value": "01/19/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "DUE ON RECEIPT"
+      },
+      {
+        "field": "grand_total",
+        "value": "3709.64"
+      },
+      {
+        "field": "tax",
+        "value": "218.22"
+      },
+      {
+        "field": "po_number",
+        "value": "826648"
+      },
+      {
+        "field": "merchant_address",
+        "value": "283 Lucas Glen Apt. 830 New Laura TX 83226 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "DHL Express"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "LX-77169 Professional Calibration Tool",
+            "line_qty": "2",
+            "line_tax": "44.41",
+            "line_total": "710.53"
+          },
+          {
+            "line_count": "2",
+            "line_description": "E-031 Compact Design Software",
+            "line_qty": "1",
+            "line_tax": "77.83",
+            "line_total": "1245.23"
+          },
+          {
+            "line_count": "3",
+            "line_description": "JVW-4759 Extended Calibration Tool",
+            "line_qty": "3",
+            "line_tax": "95.98",
+            "line_total": "1535.66"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Cruz"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/13/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Cruz"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Cruz"
+      },
+      {
+        "field": "due_date",
+        "value": "03/15/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "18187.60"
+      },
+      {
+        "field": "tax",
+        "value": "947.18"
+      },
+      {
+        "field": "po_number",
+        "value": "U13325"
+      },
+      {
+        "field": "merchant_address",
+        "value": "5968 Lowery Isle Apt. 411 Frankmouth NE 07598 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "USPS Priority"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "TN-52816 Extended Pump",
+            "line_qty": "4",
+            "line_tax": "115.35",
+            "line_total": "2097.29"
+          },
+          {
+            "line_count": "2",
+            "line_description": "XHR-23747 Professional Conveyor Belt",
+            "line_qty": "12",
+            "line_tax": "767.57",
+            "line_total": "13955.75"
+          },
+          {
+            "line_count": "3",
+            "line_description": "XKH-16117 Industrial Filter",
+            "line_qty": "1",
+            "line_tax": "64.26",
+            "line_total": "1168.39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Walker"
+      },
+      {
+        "field": "invoice_date",
+        "value": "03/02/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Walker"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Walker"
+      },
+      {
+        "field": "due_date",
+        "value": "03/02/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "DUE ON RECEIPT"
+      },
+      {
+        "field": "grand_total",
+        "value": "85545.07"
+      },
+      {
+        "field": "tax",
+        "value": "4535.91"
+      },
+      {
+        "field": "po_number",
+        "value": "2503-8184"
+      },
+      {
+        "field": "merchant_address",
+        "value": "421 Robert Glens North Meganburgh AZ 73492 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "UPS Ground"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "V-78772 Advanced Transmission Equipment",
+            "line_qty": "50",
+            "line_tax": "3605.51",
+            "line_total": "64384.17"
+          },
+          {
+            "line_count": "2",
+            "line_description": "DU-75817 Industrial Testing Apparatus",
+            "line_qty": "1",
+            "line_tax": "112.60",
+            "line_total": "2010.68"
+          },
+          {
+            "line_count": "3",
+            "line_description": "Y-55770 Premium Connection Hardware",
+            "line_qty": "1",
+            "line_tax": "141.60",
+            "line_total": "2528.56"
+          },
+          {
+            "line_count": "4",
+            "line_description": "YRR-6183 Standard Antenna",
+            "line_qty": "10",
+            "line_tax": "510.80",
+            "line_total": "9121.42"
+          },
+          {
+            "line_count": "5",
+            "line_description": "PAK-6580 Premium Signal Processor",
+            "line_qty": "1",
+            "line_tax": "165.40",
+            "line_total": "2953.59"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Gregory-Sanders"
+      },
+      {
+        "field": "invoice_date",
+        "value": "01/31/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Gregory-Sanders"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Gregory-Sanders"
+      },
+      {
+        "field": "due_date",
+        "value": "03/02/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "2960.49"
+      },
+      {
+        "field": "tax",
+        "value": "113.86"
+      },
+      {
+        "field": "po_number",
+        "value": "213253"
+      },
+      {
+        "field": "merchant_address",
+        "value": "2178 Kathleen Heights Littlemouth GA 73466 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "PayPal"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "JHE-6216 Extended Navigation System",
+            "line_qty": "1",
+            "line_tax": "71.29",
+            "line_total": "1782.36"
+          },
+          {
+            "line_count": "2",
+            "line_description": "WA-645 Basic Navigation System",
+            "line_qty": "2",
+            "line_tax": "42.57",
+            "line_total": "1064.27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Jones & Wilson"
+      },
+      {
+        "field": "invoice_date",
+        "value": "01/15/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Jones & Wilson"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Jones & Wilson"
+      },
+      {
+        "field": "due_date",
+        "value": "02/14/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "241777.79"
+      },
+      {
+        "field": "tax",
+        "value": "14756.39"
+      },
+      {
+        "field": "po_number",
+        "value": "CUST-49173-3385"
+      },
+      {
+        "field": "merchant_address",
+        "value": "1910 Booth Roads Suite 855 Lake Andrea WA 92917 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "UPS Ground"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "EN-65827 Ultimate Monitor",
+            "line_qty": "3",
+            "line_tax": "655.88",
+            "line_total": "10090.44"
+          },
+          {
+            "line_count": "2",
+            "line_description": "P-27136 Premium Monitor",
+            "line_qty": "100",
+            "line_tax": "13820.95",
+            "line_total": "212630.00"
+          },
+          {
+            "line_count": "3",
+            "line_description": "PJ-14917 Compact Surgical Instrument",
+            "line_qty": "1",
+            "line_tax": "86.62",
+            "line_total": "1332.63"
+          },
+          {
+            "line_count": "4",
+            "line_description": "TR-146 Industrial Sterilization Equipment",
+            "line_qty": "2",
+            "line_tax": "192.94",
+            "line_total": "2968.33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Lopez & Johnson Industrial"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/12/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Lopez & Johnson Industrial"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Lopez & Johnson Industrial"
+      },
+      {
+        "field": "due_date",
+        "value": "04/13/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 60 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "46030.27"
+      },
+      {
+        "field": "tax",
+        "value": "3270.13"
+      },
+      {
+        "field": "po_number",
+        "value": "W39232"
+      },
+      {
+        "field": "merchant_address",
+        "value": "5744 Gonzalez Knoll Larsonbury NJ 46878 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "DHL Express"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "JFD-02053 High Performance Motor",
+            "line_qty": "100",
+            "line_tax": "2809.38",
+            "line_total": "35797.24"
+          },
+          {
+            "line_count": "2",
+            "line_description": "AQ-596 High Performance Valve",
+            "line_qty": "2",
+            "line_tax": "144.20",
+            "line_total": "2174.97"
+          },
+          {
+            "line_count": "3",
+            "line_description": "NSC-4535 Ultimate Conveyor Belt",
+            "line_qty": "2",
+            "line_tax": "136.06",
+            "line_total": "2052.25"
+          },
+          {
+            "line_count": "4",
+            "line_description": "K-7005 Basic Compressor",
+            "line_qty": "1",
+            "line_tax": "26.75",
+            "line_total": "403.53"
+          },
+          {
+            "line_count": "5",
+            "line_description": "PFG-858 Extended Actuator",
+            "line_qty": "1",
+            "line_tax": "71.21",
+            "line_total": "1074.01"
+          },
+          {
+            "line_count": "6",
+            "line_description": "WLC-1864 Professional Valve",
+            "line_qty": "1",
+            "line_tax": "63.30",
+            "line_total": "954.74"
+          },
+          {
+            "line_count": "7",
+            "line_description": "QYK-61200 Professional Pump",
+            "line_qty": "1",
+            "line_tax": "19.23",
+            "line_total": "290.11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Gregory-Sanders"
+      },
+      {
+        "field": "invoice_date",
+        "value": "01/14/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Gregory-Sanders"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Gregory-Sanders"
+      },
+      {
+        "field": "due_date",
+        "value": "02/13/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "27742.01"
+      },
+      {
+        "field": "tax",
+        "value": "1066.16"
+      },
+      {
+        "field": "po_number",
+        "value": "V66848"
+      },
+      {
+        "field": "merchant_address",
+        "value": "2178 Kathleen Heights Littlemouth GA 73466 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "FedEx Express"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "WA-645 Basic Navigation System",
+            "line_qty": "3",
+            "line_tax": "65.75",
+            "line_total": "1643.75"
+          },
+          {
+            "line_count": "2",
+            "line_description": "JHE-6216 Extended Navigation System",
+            "line_qty": "1",
+            "line_tax": "71.85",
+            "line_total": "1796.31"
+          },
+          {
+            "line_count": "3",
+            "line_description": "Z-33884 Extended Structural Component",
+            "line_qty": "3",
+            "line_tax": "614.74",
+            "line_total": "15368.55"
+          },
+          {
+            "line_count": "4",
+            "line_description": "G-220 Ultimate Structural Component",
+            "line_qty": "1",
+            "line_tax": "313.82",
+            "line_total": "7845.40"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Jackson & Rios Systems"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/14/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Jackson & Rios Systems"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Jackson & Rios Systems"
+      },
+      {
+        "field": "due_date",
+        "value": "03/16/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "12475.54"
+      },
+      {
+        "field": "tax",
+        "value": "816.16"
+      },
+      {
+        "field": "po_number",
+        "value": "633320"
+      },
+      {
+        "field": "merchant_address",
+        "value": "01971 Smith Ford North Jeffrey IN 81856 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "DHL Express"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "U-856 Heavy Duty Binding Equipment",
+            "line_qty": "10",
+            "line_tax": "25.59",
+            "line_total": "365.55"
+          },
+          {
+            "line_count": "2",
+            "line_description": "D-172 Advanced Binding Equipment",
+            "line_qty": "50",
+            "line_tax": "767.63",
+            "line_total": "10966.19"
+          },
+          {
+            "line_count": "3",
+            "line_description": "MCS-88806 Basic Paper",
+            "line_qty": "1",
+            "line_tax": "8.37",
+            "line_total": "119.55"
+          },
+          {
+            "line_count": "4",
+            "line_description": "VF-45115 Economy Paper",
+            "line_qty": "2",
+            "line_tax": "14.57",
+            "line_total": "208.09"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Walker"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/24/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Walker"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Walker"
+      },
+      {
+        "field": "due_date",
+        "value": "03/26/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "24797.29"
+      },
+      {
+        "field": "tax",
+        "value": "1315.01"
+      },
+      {
+        "field": "po_number",
+        "value": "712328"
+      },
+      {
+        "field": "merchant_address",
+        "value": "421 Robert Glens North Meganburgh AZ 73492 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "USPS Priority"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "X-784 Lightweight Antenna",
+            "line_qty": "12",
+            "line_tax": "1315.01",
+            "line_total": "23482.28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Walker"
+      },
+      {
+        "field": "invoice_date",
+        "value": "11/07/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Walker"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Walker"
+      },
+      {
+        "field": "due_date",
+        "value": "12/07/2024"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "321351.52"
+      },
+      {
+        "field": "tax",
+        "value": "17040.38"
+      },
+      {
+        "field": "po_number",
+        "value": "PO-75767"
+      },
+      {
+        "field": "merchant_address",
+        "value": "421 Robert Glens North Meganburgh AZ 73492 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "UPS Ground"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "BB-75197 Deluxe Testing Apparatus",
+            "line_qty": "12",
+            "line_tax": "1425.50",
+            "line_total": "25455.36"
+          },
+          {
+            "line_count": "2",
+            "line_description": "XEG-07681 Standard Antenna",
+            "line_qty": "100",
+            "line_tax": "8969.15",
+            "line_total": "160163.32"
+          },
+          {
+            "line_count": "3",
+            "line_description": "Y-55770 Premium Connection Hardware",
+            "line_qty": "50",
+            "line_tax": "6004.17",
+            "line_total": "107217.38"
+          },
+          {
+            "line_count": "4",
+            "line_description": "X-2395 Standard Connection Hardware",
+            "line_qty": "10",
+            "line_tax": "641.56",
+            "line_total": "11456.46"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "EveryoneOther Office Supplies Systems"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/25/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "EveryoneOther Office Supplies Systems"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "EveryoneOther Office Supplies Systems"
+      },
+      {
+        "field": "due_date",
+        "value": "04/11/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 45 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "1032.20"
+      },
+      {
+        "field": "tax",
+        "value": "22.78"
+      },
+      {
+        "field": "po_number",
+        "value": "345076"
+      },
+      {
+        "field": "merchant_address",
+        "value": "98133 Glover Common North Markborough CO 80347 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "Net Banking"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "U-856 Heavy Duty Binding Equipment",
+            "line_qty": "10",
+            "line_tax": "10.81",
+            "line_total": "372.92"
+          },
+          {
+            "line_count": "2",
+            "line_description": "FMS-132 Commercial Label Maker",
+            "line_qty": "3",
+            "line_tax": "11.97",
+            "line_total": "412.88"
+          },
+          {
+            "line_count": "3",
+            "line_description": "GM-97746 Extended Document Scanner",
+            "line_qty": "1",
+            "line_tax": "0.00",
+            "line_total": "210.17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "EveryoneOther Office Supplies Systems"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/20/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "EveryoneOther Office Supplies Systems"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "EveryoneOther Office Supplies Systems"
+      },
+      {
+        "field": "due_date",
+        "value": "03/22/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "467.01"
+      },
+      {
+        "field": "tax",
+        "value": "13.16"
+      },
+      {
+        "field": "po_number",
+        "value": "245893"
+      },
+      {
+        "field": "merchant_address",
+        "value": "98133 Glover Common North Markborough CO 80347 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "DHL Express"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "FMS-132 Commercial Label Maker",
+            "line_qty": "1",
+            "line_tax": "3.99",
+            "line_total": "137.69"
+          },
+          {
+            "line_count": "2",
+            "line_description": "TL-27722 Premium Paper",
+            "line_qty": "2",
+            "line_tax": "1.51",
+            "line_total": "52.02"
+          },
+          {
+            "line_count": "3",
+            "line_description": "WLE-047 Deluxe Document Scanner",
+            "line_qty": "2",
+            "line_tax": "7.66",
+            "line_total": "264.14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Roy-Miller Solutions"
+      },
+      {
+        "field": "invoice_date",
+        "value": "01/05/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Roy-Miller Solutions"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Roy-Miller Solutions"
+      },
+      {
+        "field": "due_date",
+        "value": "02/04/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "1957.70"
+      },
+      {
+        "field": "tax",
+        "value": "0.00"
+      },
+      {
+        "field": "po_number",
+        "value": "PO-13517"
+      },
+      {
+        "field": "merchant_address",
+        "value": "7360 Brock Manors South Mary DE 29471 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "DHL Express"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "V-78772 Advanced Transmission Equipment",
+            "line_qty": "1",
+            "line_tax": "0.00",
+            "line_total": "1472.47"
+          },
+          {
+            "line_count": "2",
+            "line_description": "QNU-3938 Industrial Transmission Equipment",
+            "line_qty": "1",
+            "line_tax": "0.00",
+            "line_total": "485.23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Thomas Manufacturing"
+      },
+      {
+        "field": "invoice_date",
+        "value": "01/04/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Thomas Manufacturing"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Thomas Manufacturing"
+      },
+      {
+        "field": "due_date",
+        "value": "01/04/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "DUE ON RECEIPT"
+      },
+      {
+        "field": "grand_total",
+        "value": "6443.74"
+      },
+      {
+        "field": "tax",
+        "value": "310.51"
+      },
+      {
+        "field": "po_number",
+        "value": "2503-4369"
+      },
+      {
+        "field": "merchant_address",
+        "value": "7660 Kristin Stream North Jessebury NY 03704 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "DHL Express"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "D-07903 Deluxe Assembly Kit",
+            "line_qty": "2",
+            "line_tax": "67.37",
+            "line_total": "1684.23"
+          },
+          {
+            "line_count": "2",
+            "line_description": "ZBY-838 Heavy Duty Fixture",
+            "line_qty": "1",
+            "line_tax": "39.64",
+            "line_total": "990.94"
+          },
+          {
+            "line_count": "3",
+            "line_description": "K-2265 Advanced Fixture",
+            "line_qty": "2",
+            "line_tax": "106.91",
+            "line_total": "993.71"
+          },
+          {
+            "line_count": "4",
+            "line_description": "QSY-1910 Basic Tool Set",
+            "line_qty": "24",
+            "line_tax": "84.44",
+            "line_total": "2111.05"
+          },
+          {
+            "line_count": "5",
+            "line_description": "K-415 Advanced Die",
+            "line_qty": "1",
+            "line_tax": "12.15",
+            "line_total": "303.70"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Lopez & Johnson Industrial"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/21/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Lopez & Johnson Industrial"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Lopez & Johnson Industrial"
+      },
+      {
+        "field": "due_date",
+        "value": "04/07/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 45 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "2876.52"
+      },
+      {
+        "field": "tax",
+        "value": "175.98"
+      },
+      {
+        "field": "po_number",
+        "value": "PO-60418"
+      },
+      {
+        "field": "merchant_address",
+        "value": "5744 Gonzalez Knoll Larsonbury NJ 46878 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "Wire Transfer"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "J-45502 Basic Valve",
+            "line_qty": "5",
+            "line_tax": "138.79",
+            "line_total": "2093.31"
+          },
+          {
+            "line_count": "2",
+            "line_description": "QS-61183 Lightweight Compressor",
+            "line_qty": "2",
+            "line_tax": "37.19",
+            "line_total": "561.00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Lopez & Johnson Industrial"
+      },
+      {
+        "field": "invoice_date",
+        "value": "03/02/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Lopez & Johnson Industrial"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Lopez & Johnson Industrial"
+      },
+      {
+        "field": "due_date",
+        "value": "04/01/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "3681.35"
+      },
+      {
+        "field": "tax",
+        "value": "228.48"
+      },
+      {
+        "field": "po_number",
+        "value": "63752-561"
+      },
+      {
+        "field": "merchant_address",
+        "value": "5744 Gonzalez Knoll Larsonbury NJ 46878 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "USPS Priority"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "AQ-596 High Performance Valve",
+            "line_qty": "1",
+            "line_tax": "72.32",
+            "line_total": "1090.85"
+          },
+          {
+            "line_count": "2",
+            "line_description": "QYK-61200 Professional Pump",
+            "line_qty": "5",
+            "line_tax": "94.78",
+            "line_total": "1429.50"
+          },
+          {
+            "line_count": "3",
+            "line_description": "VR-20715 Deluxe Filter",
+            "line_qty": "1",
+            "line_tax": "61.38",
+            "line_total": "925.82"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "ChoiceNone"
+      },
+      {
+        "field": "invoice_date",
+        "value": "01/11/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "ChoiceNone"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "ChoiceNone"
+      },
+      {
+        "field": "due_date",
+        "value": "02/10/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "4310.00"
+      },
+      {
+        "field": "tax",
+        "value": "0.00"
+      },
+      {
+        "field": "po_number",
+        "value": "D80078"
+      },
+      {
+        "field": "merchant_address",
+        "value": "92349 Brett Drive Apt. 322 Stevenmouth OR 47591 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "UPS Ground"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "NE-47510 Compact Power Supply",
+            "line_qty": "1",
+            "line_tax": "0.00",
+            "line_total": "282.49"
+          },
+          {
+            "line_count": "2",
+            "line_description": "H-869 High Performance Display Unit",
+            "line_qty": "3",
+            "line_tax": "0.00",
+            "line_total": "1943.48"
+          },
+          {
+            "line_count": "3",
+            "line_description": "H-43320 Standard Memory Module",
+            "line_qty": "12",
+            "line_tax": "0.00",
+            "line_total": "1772.26"
+          },
+          {
+            "line_count": "4",
+            "line_description": "ZHJ-160 Basic Battery",
+            "line_qty": "2",
+            "line_tax": "0.00",
+            "line_total": "311.77"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Reed-Finley"
+      },
+      {
+        "field": "invoice_date",
+        "value": "01/15/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Reed-Finley"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Reed-Finley"
+      },
+      {
+        "field": "due_date",
+        "value": "02/14/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "14159.46"
+      },
+      {
+        "field": "tax",
+        "value": "798.94"
+      },
+      {
+        "field": "po_number",
+        "value": "59465-885"
+      },
+      {
+        "field": "merchant_address",
+        "value": "94685 Martinez Stream Apt. 675 Katherineville ID 12174 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "UPS Ground"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "XKH-16117 Industrial Filter",
+            "line_qty": "10",
+            "line_tax": "655.69",
+            "line_total": "10928.21"
+          },
+          {
+            "line_count": "2",
+            "line_description": "E-901 Professional Pump",
+            "line_qty": "2",
+            "line_tax": "79.64",
+            "line_total": "1327.36"
+          },
+          {
+            "line_count": "3",
+            "line_description": "ATP-317 Premium Bearing",
+            "line_qty": "3",
+            "line_tax": "63.61",
+            "line_total": "1060.25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Smith"
+      },
+      {
+        "field": "invoice_date",
+        "value": "10/13/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Smith"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Smith"
+      },
+      {
+        "field": "due_date",
+        "value": "10/13/2024"
+      },
+      {
+        "field": "payment_terms",
+        "value": "COD"
+      },
+      {
+        "field": "grand_total",
+        "value": "146568.51"
+      },
+      {
+        "field": "tax",
+        "value": "8619.04"
+      },
+      {
+        "field": "po_number",
+        "value": "23878-465"
+      },
+      {
+        "field": "merchant_address",
+        "value": "283 Lucas Glen Apt. 830 New Laura TX 83226 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "USPS Priority"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "BGQ-18376 Economy Prototyping Material",
+            "line_qty": "2",
+            "line_tax": "69.41",
+            "line_total": "1110.50"
+          },
+          {
+            "line_count": "2",
+            "line_description": "TY-3928 Heavy Duty Technical Resource",
+            "line_qty": "100",
+            "line_tax": "8549.63",
+            "line_total": "136794.12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Walker"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/25/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Walker"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Walker"
+      },
+      {
+        "field": "due_date",
+        "value": "03/27/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "3468.65"
+      },
+      {
+        "field": "tax",
+        "value": "182.15"
+      },
+      {
+        "field": "po_number",
+        "value": "W51676"
+      },
+      {
+        "field": "merchant_address",
+        "value": "421 Robert Glens North Meganburgh AZ 73492 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "FedEx Ground"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "WTU-9058 Ultimate Antenna",
+            "line_qty": "1",
+            "line_tax": "90.97",
+            "line_total": "1624.51"
+          },
+          {
+            "line_count": "2",
+            "line_description": "V-62405 Advanced Testing Apparatus",
+            "line_qty": "1",
+            "line_tax": "91.18",
+            "line_total": "1628.16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "MatterSouthern"
+      },
+      {
+        "field": "invoice_date",
+        "value": "12/25/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "MatterSouthern"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "MatterSouthern"
+      },
+      {
+        "field": "due_date",
+        "value": "01/24/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "3333.00"
+      },
+      {
+        "field": "tax",
+        "value": "187.12"
+      },
+      {
+        "field": "po_number",
+        "value": "PO-17854"
+      },
+      {
+        "field": "merchant_address",
+        "value": "48515 Jay Islands Apt. 470 West Emily MI 80341 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "UPS Ground"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "AQ-596 High Performance Valve",
+            "line_qty": "2",
+            "line_tax": "131.78",
+            "line_total": "2196.26"
+          },
+          {
+            "line_count": "2",
+            "line_description": "E-73158 Heavy Duty Compressor",
+            "line_qty": "2",
+            "line_tax": "55.34",
+            "line_total": "949.62"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Jones & Wilson"
+      },
+      {
+        "field": "invoice_date",
+        "value": "11/12/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Jones & Wilson"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Jones & Wilson"
+      },
+      {
+        "field": "due_date",
+        "value": "11/12/2024"
+      },
+      {
+        "field": "payment_terms",
+        "value": "DUE ON RECEIPT"
+      },
+      {
+        "field": "grand_total",
+        "value": "1679.70"
+      },
+      {
+        "field": "tax",
+        "value": "102.52"
+      },
+      {
+        "field": "po_number",
+        "value": "797309"
+      },
+      {
+        "field": "merchant_address",
+        "value": "1910 Booth Roads Suite 855 Lake Andrea WA 92917 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "PayPal"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "E-003 Industrial Sterilization Equipment",
+            "line_qty": "1",
+            "line_tax": "102.52",
+            "line_total": "1577.18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Martin-Kaiser LLC"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/12/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Martin-Kaiser LLC"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Martin-Kaiser LLC"
+      },
+      {
+        "field": "due_date",
+        "value": "04/13/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 60 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "117051.75"
+      },
+      {
+        "field": "tax",
+        "value": "0.00"
+      },
+      {
+        "field": "po_number",
+        "value": "2503-4348"
+      },
+      {
+        "field": "merchant_address",
+        "value": "21837 Douglas Cliffs Suite 259 North Melissaport PR 34622 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "ACH"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "XKH-16117 Industrial Filter",
+            "line_qty": "4",
+            "line_tax": "0.00",
+            "line_total": "4710.64"
+          },
+          {
+            "line_count": "2",
+            "line_description": "XHR-23747 Professional Conveyor Belt",
+            "line_qty": "100",
+            "line_tax": "0.00",
+            "line_total": "112341.11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Gregory-Sanders"
+      },
+      {
+        "field": "invoice_date",
+        "value": "01/03/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Gregory-Sanders"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Gregory-Sanders"
+      },
+      {
+        "field": "due_date",
+        "value": "02/02/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "47364.35"
+      },
+      {
+        "field": "tax",
+        "value": "1526.19"
+      },
+      {
+        "field": "po_number",
+        "value": "2503-3553"
+      },
+      {
+        "field": "merchant_address",
+        "value": "2178 Kathleen Heights Littlemouth GA 73466 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "UPS Ground"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "N-7223 Commercial Structural Component",
+            "line_qty": "2",
+            "line_tax": "471.43",
+            "line_total": "11785.63"
+          },
+          {
+            "line_count": "2",
+            "line_description": "WA-645 Basic Navigation System",
+            "line_qty": "1",
+            "line_tax": "21.19",
+            "line_total": "529.85"
+          },
+          {
+            "line_count": "3",
+            "line_description": "G-220 Ultimate Structural Component",
+            "line_qty": "1",
+            "line_tax": "0.00",
+            "line_total": "7657.46"
+          },
+          {
+            "line_count": "4",
+            "line_description": "NZB-68034 Compact Safety Mechanism",
+            "line_qty": "10",
+            "line_tax": "761.24",
+            "line_total": "19031.12"
+          },
+          {
+            "line_count": "5",
+            "line_description": "EQB-352 Ultimate Cabin Equipment",
+            "line_qty": "2",
+            "line_tax": "272.33",
+            "line_total": "6808.24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Gregory-Sanders"
+      },
+      {
+        "field": "invoice_date",
+        "value": "11/26/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Gregory-Sanders"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Gregory-Sanders"
+      },
+      {
+        "field": "due_date",
+        "value": "01/25/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 60 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "116905.91"
+      },
+      {
+        "field": "tax",
+        "value": "4397.27"
+      },
+      {
+        "field": "po_number",
+        "value": "P43457"
+      },
+      {
+        "field": "merchant_address",
+        "value": "2178 Kathleen Heights Littlemouth GA 73466 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "USPS Priority"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "NZB-68034 Compact Safety Mechanism",
+            "line_qty": "50",
+            "line_tax": "3935.43",
+            "line_total": "100962.65"
+          },
+          {
+            "line_count": "2",
+            "line_description": "SHH-465 Economy Safety Mechanism",
+            "line_qty": "5",
+            "line_tax": "461.84",
+            "line_total": "11545.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Scott-Butler"
+      },
+      {
+        "field": "invoice_date",
+        "value": "12/10/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Scott-Butler"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Scott-Butler"
+      },
+      {
+        "field": "due_date",
+        "value": "02/08/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 60 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "12345.35"
+      },
+      {
+        "field": "tax",
+        "value": "501.02"
+      },
+      {
+        "field": "po_number",
+        "value": "C94462"
+      },
+      {
+        "field": "merchant_address",
+        "value": "33626 Tami Loop Suite 312 Holmestown MO 57935 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "Check"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "BA-2427 Extended Battery",
+            "line_qty": "3",
+            "line_tax": "59.20",
+            "line_total": "1399.64"
+          },
+          {
+            "line_count": "2",
+            "line_description": "P-1657 Deluxe Memory Module",
+            "line_qty": "10",
+            "line_tax": "63.86",
+            "line_total": "1509.66"
+          },
+          {
+            "line_count": "3",
+            "line_description": "TXZ-35615 High Performance Controller",
+            "line_qty": "1",
+            "line_tax": "12.98",
+            "line_total": "306.91"
+          },
+          {
+            "line_count": "4",
+            "line_description": "Q-046 Heavy Duty Battery",
+            "line_qty": "12",
+            "line_tax": "83.07",
+            "line_total": "1963.83"
+          },
+          {
+            "line_count": "5",
+            "line_description": "SNX-50142 High Performance Memory Module",
+            "line_qty": "5",
+            "line_tax": "160.27",
+            "line_total": "3788.79"
+          },
+          {
+            "line_count": "6",
+            "line_description": "H-869 High Performance Display Unit",
+            "line_qty": "2",
+            "line_tax": "54.05",
+            "line_total": "1277.72"
+          },
+          {
+            "line_count": "7",
+            "line_description": "H-43320 Standard Memory Module",
+            "line_qty": "2",
+            "line_tax": "13.51",
+            "line_total": "319.29"
+          },
+          {
+            "line_count": "8",
+            "line_description": "HF-87083 Advanced Sensor",
+            "line_qty": "2",
+            "line_tax": "54.08",
+            "line_total": "1278.49"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Jackson & Rios Systems"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/04/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Jackson & Rios Systems"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Jackson & Rios Systems"
+      },
+      {
+        "field": "due_date",
+        "value": "03/06/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "1469.04"
+      },
+      {
+        "field": "tax",
+        "value": "95.41"
+      },
+      {
+        "field": "po_number",
+        "value": "PO-37862"
+      },
+      {
+        "field": "merchant_address",
+        "value": "01971 Smith Ford North Jeffrey IN 81856 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "USPS Priority"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "WLE-047 Deluxe Document Scanner",
+            "line_qty": "1",
+            "line_tax": "19.14",
+            "line_total": "131.50"
+          },
+          {
+            "line_count": "2",
+            "line_description": "UC-517 Compact Document Scanner",
+            "line_qty": "5",
+            "line_tax": "51.76",
+            "line_total": "739.45"
+          },
+          {
+            "line_count": "3",
+            "line_description": "U-856 Heavy Duty Binding Equipment",
+            "line_qty": "10",
+            "line_tax": "24.51",
+            "line_total": "350.12"
+          },
+          {
+            "line_count": "4",
+            "line_description": "F-7826 Premium Ink Cartridge",
+            "line_qty": "1",
+            "line_tax": "0.00",
+            "line_total": "143.70"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "WorryAdult"
+      },
+      {
+        "field": "invoice_date",
+        "value": "09/24/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "WorryAdult"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "WorryAdult"
+      },
+      {
+        "field": "due_date",
+        "value": "09/24/2024"
+      },
+      {
+        "field": "payment_terms",
+        "value": "COD"
+      },
+      {
+        "field": "grand_total",
+        "value": "27259.28"
+      },
+      {
+        "field": "tax",
+        "value": "1783.31"
+      },
+      {
+        "field": "po_number",
+        "value": "H57344"
+      },
+      {
+        "field": "merchant_address",
+        "value": "23616 Blackburn Field Sergiochester TN 56955 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "DHL Express"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "NZB-68034 Compact Safety Mechanism",
+            "line_qty": "5",
+            "line_tax": "760.25",
+            "line_total": "10860.72"
+          },
+          {
+            "line_count": "2",
+            "line_description": "LQH-6096 Deluxe Cabin Equipment",
+            "line_qty": "1",
+            "line_tax": "65.55",
+            "line_total": "936.48"
+          },
+          {
+            "line_count": "3",
+            "line_description": "U-82665 Compact Navigation System",
+            "line_qty": "1",
+            "line_tax": "227.88",
+            "line_total": "3255.47"
+          },
+          {
+            "line_count": "4",
+            "line_description": "SHH-465 Economy Safety Mechanism",
+            "line_qty": "2",
+            "line_tax": "322.27",
+            "line_total": "4603.89"
+          },
+          {
+            "line_count": "5",
+            "line_description": "KN-251 Compact Communication Device",
+            "line_qty": "2",
+            "line_tax": "407.36",
+            "line_total": "5819.41"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Reyes & King Aerospace"
+      },
+      {
+        "field": "invoice_date",
+        "value": "12/10/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Reyes & King Aerospace"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Reyes & King Aerospace"
+      },
+      {
+        "field": "due_date",
+        "value": "01/09/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "148816.12"
+      },
+      {
+        "field": "tax",
+        "value": "0.00"
+      },
+      {
+        "field": "po_number",
+        "value": "52667-794"
+      },
+      {
+        "field": "merchant_address",
+        "value": "1209 Solis Ranch Apt. 304 Laurachester PW 15796 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "USPS Priority"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "Z-33884 Extended Structural Component",
+            "line_qty": "3",
+            "line_tax": "0.00",
+            "line_total": "15236.26"
+          },
+          {
+            "line_count": "2",
+            "line_description": "U-82665 Compact Navigation System",
+            "line_qty": "3",
+            "line_tax": "0.00",
+            "line_total": "9544.96"
+          },
+          {
+            "line_count": "3",
+            "line_description": "WA-645 Basic Navigation System",
+            "line_qty": "2",
+            "line_tax": "0.00",
+            "line_total": "1082.76"
+          },
+          {
+            "line_count": "4",
+            "line_description": "N-7223 Commercial Structural Component",
+            "line_qty": "24",
+            "line_tax": "0.00",
+            "line_total": "122940.70"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "MatterSouthern"
+      },
+      {
+        "field": "invoice_date",
+        "value": "10/15/2024"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "MatterSouthern"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "MatterSouthern"
+      },
+      {
+        "field": "due_date",
+        "value": "11/14/2024"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "38375.71"
+      },
+      {
+        "field": "tax",
+        "value": "2172.21"
+      },
+      {
+        "field": "po_number",
+        "value": "J38885"
+      },
+      {
+        "field": "merchant_address",
+        "value": "48515 Jay Islands Apt. 470 West Emily MI 80341 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "USPS Priority"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "E-901 Professional Pump",
+            "line_qty": "4",
+            "line_tax": "161.77",
+            "line_total": "2696.17"
+          },
+          {
+            "line_count": "2",
+            "line_description": "J-5840 Professional Motor",
+            "line_qty": "2",
+            "line_tax": "141.84",
+            "line_total": "2364.03"
+          },
+          {
+            "line_count": "3",
+            "line_description": "NHP-576 Lightweight Filter",
+            "line_qty": "50",
+            "line_tax": "1868.60",
+            "line_total": "31143.30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Martin-Kaiser LLC"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/08/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Martin-Kaiser LLC"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Martin-Kaiser LLC"
+      },
+      {
+        "field": "due_date",
+        "value": "04/09/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 60 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "29597.01"
+      },
+      {
+        "field": "tax",
+        "value": "0.00"
+      },
+      {
+        "field": "po_number",
+        "value": "CUST-92941-2895"
+      },
+      {
+        "field": "merchant_address",
+        "value": "21837 Douglas Cliffs Suite 259 North Melissaport PR 34622 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "Wire Transfer"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "J-5840 Professional Motor",
+            "line_qty": "10",
+            "line_tax": "0.00",
+            "line_total": "10568.78"
+          },
+          {
+            "line_count": "2",
+            "line_description": "P-528 Standard Pump",
+            "line_qty": "2",
+            "line_tax": "0.00",
+            "line_total": "1207.16"
+          },
+          {
+            "line_count": "3",
+            "line_description": "MCN-481 Compact Conveyor Belt",
+            "line_qty": "10",
+            "line_tax": "0.00",
+            "line_total": "6114.64"
+          },
+          {
+            "line_count": "4",
+            "line_description": "NHP-576 Lightweight Filter",
+            "line_qty": "3",
+            "line_tax": "0.00",
+            "line_total": "2081.41"
+          },
+          {
+            "line_count": "5",
+            "line_description": "VR-20715 Deluxe Filter",
+            "line_qty": "12",
+            "line_tax": "0.00",
+            "line_total": "9602.91"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Election GmbH"
+      },
+      {
+        "field": "invoice_date",
+        "value": "03/03/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Election GmbH"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Election GmbH"
+      },
+      {
+        "field": "due_date",
+        "value": "05/02/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 60 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "8695.24"
+      },
+      {
+        "field": "tax",
+        "value": "438.17"
+      },
+      {
+        "field": "po_number",
+        "value": "2503-3022"
+      },
+      {
+        "field": "merchant_address",
+        "value": "400 Charles Ville Suite 561 New John VA 87139 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "FedEx Express"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "FMS-132 Commercial Label Maker",
+            "line_qty": "50",
+            "line_tax": "322.83",
+            "line_total": "6091.16"
+          },
+          {
+            "line_count": "2",
+            "line_description": "VE-62229 Ultimate Label Maker",
+            "line_qty": "10",
+            "line_tax": "16.48",
+            "line_total": "311.02"
+          },
+          {
+            "line_count": "3",
+            "line_description": "BAC-943 Ultimate Ink Cartridge",
+            "line_qty": "12",
+            "line_tax": "16.75",
+            "line_total": "305.68"
+          },
+          {
+            "line_count": "4",
+            "line_description": "MCS-88806 Basic Paper",
+            "line_qty": "5",
+            "line_tax": "31.84",
+            "line_total": "600.76"
+          },
+          {
+            "line_count": "5",
+            "line_description": "F-7826 Premium Ink Cartridge",
+            "line_qty": "2",
+            "line_tax": "15.24",
+            "line_total": "287.46"
+          },
+          {
+            "line_count": "6",
+            "line_description": "WLE-047 Deluxe Document Scanner",
+            "line_qty": "5",
+            "line_tax": "35.03",
+            "line_total": "660.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "MatterSouthern"
+      },
+      {
+        "field": "invoice_date",
+        "value": "02/08/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "MatterSouthern"
+      },
+      {
+        "field": "merchant_chain",
+        "value": "MatterSouthern"
+      },
+      {
+        "field": "due_date",
+        "value": "03/10/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 30 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "7871.97"
+      },
+      {
+        "field": "tax",
+        "value": "445.58"
+      },
+      {
+        "field": "po_number",
+        "value": "CUST-94907-3681"
+      },
+      {
+        "field": "merchant_address",
+        "value": "48515 Jay Islands Apt. 470 West Emily MI 80341 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "Wire Transfer"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "AQ-596 High Performance Valve",
+            "line_qty": "1",
+            "line_tax": "65.65",
+            "line_total": "1094.15"
+          },
+          {
+            "line_count": "2",
+            "line_description": "XKH-16117 Industrial Filter",
+            "line_qty": "2",
+            "line_tax": "145.19",
+            "line_total": "2419.86"
+          },
+          {
+            "line_count": "3",
+            "line_description": "TN-52816 Extended Pump",
+            "line_qty": "1",
+            "line_tax": "31.41",
+            "line_total": "523.46"
+          },
+          {
+            "line_count": "4",
+            "line_description": "J-45502 Basic Valve",
+            "line_qty": "2",
+            "line_tax": "50.68",
+            "line_total": "844.72"
+          },
+          {
+            "line_count": "5",
+            "line_description": "MP-5125 Lightweight Pump",
+            "line_qty": "3",
+            "line_tax": "57.85",
+            "line_total": "964.11"
+          },
+          {
+            "line_count": "6",
+            "line_description": "MCN-481 Compact Conveyor Belt",
+            "line_qty": "1",
+            "line_tax": "39.83",
+            "line_total": "663.85"
+          },
+          {
+            "line_count": "7",
+            "line_description": "VR-20715 Deluxe Filter",
+            "line_qty": "1",
+            "line_tax": "54.97",
+            "line_total": "916.24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "AmongChance Ltd."
+      },
+      {
+        "field": "invoice_date",
+        "value": "01/11/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "AmongChance Ltd."
+      },
+      {
+        "field": "merchant_chain",
+        "value": "AmongChance Ltd."
+      },
+      {
+        "field": "due_date",
+        "value": "03/12/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 60 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "187787.23"
+      },
+      {
+        "field": "tax",
+        "value": "10629.45"
+      },
+      {
+        "field": "po_number",
+        "value": "CUST-48005-7260"
+      },
+      {
+        "field": "merchant_address",
+        "value": "8324 John Square Apt. 346 Watsonchester IA 38497 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "UPS Ground"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "LCT-755 Commercial Sample Container",
+            "line_qty": "100",
+            "line_tax": "8570.76",
+            "line_total": "142846.07"
+          },
+          {
+            "line_count": "2",
+            "line_description": "ED-179 Standard Analysis Equipment",
+            "line_qty": "3",
+            "line_tax": "234.65",
+            "line_total": "3910.89"
+          },
+          {
+            "line_count": "3",
+            "line_description": "TAX-68650 Deluxe Chemical",
+            "line_qty": "10",
+            "line_tax": "744.26",
+            "line_total": "12404.41"
+          },
+          {
+            "line_count": "4",
+            "line_description": "JTT-2563 Advanced Glassware",
+            "line_qty": "10",
+            "line_tax": "1079.78",
+            "line_total": "17996.41"
+          }
+        ]
+      }
+    ]
+  }
+]
