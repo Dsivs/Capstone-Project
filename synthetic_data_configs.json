@@ -110,5 +110,11 @@
         "WI": 0.0500,
         "WY": 0.0400,
         "DC": 0.0600
-    }
+    },
+    "product_variations": {
+        "Battery": ["Power Cell", "Rechargeable Battery", "Energy Unit"],
+        "Sensor": ["Detector", "Probe", "Transducer"],
+        "LaserJet": ["Inkjet", "Document Scanner", "Multifunction"],
+        "Controller": ["Processor", "Microchip", "Circuit Board"]
+  }
 }
