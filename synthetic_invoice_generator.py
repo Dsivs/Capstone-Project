@@ -542,7 +542,7 @@ def generate_synthetic_invoice(
 
         # Calculate due date based on payment terms
         if "30" in payment_term:
-            due_days = 60
+            due_days = 30
         elif "45" in payment_term:
             due_days = 45
         elif "60" in payment_term:
