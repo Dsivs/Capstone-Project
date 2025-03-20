@@ -163,7 +163,7 @@ def _apply_general_anomaly(
     return None
 
 
-def _apply_variations(base_invoice: dict[str, list]) -> dict[str, list]:
+def _apply_variations(base_invoice: dict[str, Any]) -> dict[str, Any]:
     duplicate_invoice = copy.deepcopy(base_invoice)
 
     assert duplicate_invoice["extractions"][1]["field"] == "invoice_date"
@@ -414,9 +414,9 @@ def generate_synthetic_invoice(
 ) -> list[dict]:
     """Generate synthetic invoice data based on the provided schema.
 
-    Parameters:
+    Args:
         num_invoices (int): Number of synthetic invoices to generate
-        num_invoices (int): Number of synthetic merchants to generate
+        num_merchants (int): Number of synthetic merchants to generate
         general_anomaly_rate (float): Rate at which to introduce general
             anomalies (anomaly per invoice)
         line_anomaly_rate (float): Rate at which to introduce line
