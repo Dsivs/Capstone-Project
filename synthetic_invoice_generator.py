@@ -846,29 +846,27 @@ def analyze_synthetic_data(invoices: list[dict]) -> None:
         print(f"- {field}: {count} ({percentage:.1f}%)")
 
 
-def save_synthetic_data(
-    invoices: list[dict], base_filename: str = "synthetic_invoices"
-) -> None:
-    """Save synthetic invoices to JSON files.
-
-    Args:
-        invoices (list): List of invoice dictionaries
-        base_filename (str): Base filename without extension
+def save_synthetic_data(invoices, base_filename="synthetic_invoices"):
+    """
+    Save synthetic invoices to JSON files
+    
+    Parameters:
+    invoices (list): List of invoice dictionaries
+    base_filename (str): Base filename without extension
     """
     # Save all invoices to one file
     all_filename = f"{base_filename}.json"
-    with open(all_filename, "w") as f:
+    with open(all_filename, 'w') as f:
         json.dump(invoices, f, indent=2)
-
+    
     print(f"Generated {len(invoices)} synthetic invoices and saved to {all_filename}")
-
-    # Save in JSONL format as well (one invoice per line,
-    # no indentation)
+    
+    # Save in JSONL format as well (one invoice per line, no indentation)
     jsonl_filename = f"{base_filename}.jsonl"
-    with open(jsonl_filename, "w") as f:
+    with open(jsonl_filename, 'w') as f:
         for invoice in invoices:
-            f.write(json.dumps(invoice) + "\n")
-
+            f.write(json.dumps(invoice) + '\n')
+    
     print(f"Saved invoices in JSONL format to {jsonl_filename}")
 
 
@@ -916,6 +914,54 @@ def generate_dataset(
 
     return invoices
 
+def preprocess_invoices(invoices):
+    data = []
+    
+    for invoice in invoices:
+        features = {}
+        extractions = {item["field"]: item["value"] for item in invoice["extractions"]}
+        
+        # Extract numeric features
+        features["grand_total"] = float(extractions.get("grand_total", 0))
+        features["tax"] = float(extractions.get("tax", 0))
+        features["days_to_due"] = (datetime.strptime(extractions["due_date"], "%m/%d/%Y") - 
+                                   datetime.strptime(extractions["invoice_date"], "%m/%d/%Y")).days
+
+        # Extract line item statistics
+        line_items = extractions.get("line_details", [])
+        total_qty = sum(int(item["line_qty"]) for item in line_items if item["line_qty"].isdigit())
+        avg_line_total = np.mean([float(item["line_total"]) for item in line_items]) if line_items else 0
+        max_line_total = max([float(item["line_total"]) for item in line_items]) if line_items else 0
+
+        features["total_line_items"] = len(line_items)
+        features["total_qty"] = total_qty
+        features["avg_line_total"] = avg_line_total
+        features["max_line_total"] = max_line_total
+
+        # Append fraud label (for supervised learning)
+        features["is_fraud"] = int(invoice["is_fraud"])
+
+        # **Fraud Anomaly Features**
+        features["overpriced_item"] = any(float(item["line_total"]) > 10000 for item in line_items)
+        features["underpriced_item"] = any(float(item["line_total"]) < 5 for item in line_items)
+        features["exaggerated_quantity"] = any(int(item["line_qty"]) > 50 for item in line_items)
+
+        features["too_high_tax"] = int(features["tax"] > features["grand_total"] * 0.4)
+        features["too_low_tax"] = int(features["tax"] < features["grand_total"] * 0.01)
+        features["phantom_item_present"] = int(any("Phantom Item" in item["line_description"] for item in line_items))
+
+        # Categorical Encoding (Convert to Numeric)
+        merchant_name = extractions.get("merchant", "Unknown")
+        payment_terms = extractions.get("payment_terms", "Unknown")
+        features["merchant_encoded"] = hash(merchant_name) % 10000  # Hashing trick
+        features["payment_terms_encoded"] = hash(payment_terms) % 100  
+
+        data.append(features)
+
+    # Convert to DataFrame
+    df = pd.DataFrame(data)
+
+    return df
 
 if __name__ == "__main__":
     generate_dataset(
@@ -924,3 +970,4 @@ if __name__ == "__main__":
         general_anomaly_rate=0.3,
         line_anomaly_rate=0.05,
     )
+    
