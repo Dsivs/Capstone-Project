@@ -1,3 +1,13 @@
+"""
+Module for synthetic invoice generator.
+
+This module provides a generator for ... 
+The primary function in this module is generate_dataset.
+
+Date: 
+"""
+
+
 import collections
 import copy
 import datetime
