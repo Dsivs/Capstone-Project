@@ -11,18 +11,20 @@ import numpy as np
 # Set up the Faker generator with a fixed seed for reproducibility
 fake = faker.Faker(["en_US"])
 
-with open("synthetic_data_configs.json", "r") as f:
+with open(R"synthetic_data_configs.json", "r") as f:
     synthetic_data_configs = json.load(f)
 
 
 def _apply_line_anomaly(
+    *,
     selected_products: list[dict],
     adjusted_unit_price: float,
     qty: int,
+    tax_rate: float,
     line_tax: float,
     line_total: float,
     anomaly_type: str | None = None,
-) -> tuple[str, dict[str, Any]] | tuple[None, None]:
+) -> tuple[str | None, dict[str, Any] | None]:
     line_anomaly_types = [
         "tax_calc",
         "line_total",
@@ -38,7 +40,11 @@ def _apply_line_anomaly(
     while anomaly_type == "skip_tax" and line_tax == 0:
         anomaly_type = random.choice(line_anomaly_types)
 
-    assert anomaly_type in line_anomaly_types
+    if anomaly_type not in line_anomaly_types:
+        raise ValueError(
+            f"Unsupported line anomaly type: `{anomaly_type}`. "
+            f"Supported types are: {', '.join(line_anomaly_types)}."
+        )
 
     anomaly = {}
     if anomaly_type == "tax_calc":
@@ -75,13 +81,18 @@ def _apply_line_anomaly(
         # Select a random phantom description
         phantom_description = random.choice(phantom_descriptions)
 
+        phantom_line_total = random.uniform(5, 100)
+        phantom_line_tax = (
+            round(phantom_line_total * tax_rate, 2) if tax_rate > 0 else 0.0
+        )
+
         # Add the phantom item to line details
         phantom_line_detail = {
             "line_count": 0,
             "line_description": phantom_description,
             "line_qty": str(random.randint(1, 10)),
-            "line_tax": "{:.2f}".format(random.uniform(0.5, 10.0)),
-            "line_total": "{:.2f}".format(random.uniform(5, 100)),
+            "line_tax": phantom_line_tax,
+            "line_total": phantom_line_total,
         }
         anomaly = {"phantom_line_detail": phantom_line_detail}
 
@@ -90,14 +101,16 @@ def _apply_line_anomaly(
 
 def _apply_general_anomaly(
     invoices: list[dict],
+    *,
     merchant_name: str,
     merchant_type: str,
     tax_rate: float,
     invoice_date: datetime.datetime,
     due_date: datetime.datetime,
     due_days: int,
+    output_types: bool,
     anomaly_type: str | None = None,
-) -> tuple[str, dict[str, Any]] | tuple[None, None]:
+) -> tuple[str | None, dict[str, Any] | None]:
     general_anomaly_types = [
         "due_date_anomaly",
         "varied_wordings",
@@ -109,7 +122,11 @@ def _apply_general_anomaly(
     if anomaly_type is None:
         anomaly_type = random.choice(general_anomaly_types)
 
-    assert anomaly_type in general_anomaly_types
+    if anomaly_type not in general_anomaly_types:
+        raise ValueError(
+            f"Unsupported general anomaly type: `{anomaly_type}`. "
+            f"Supported types are: {', '.join(general_anomaly_types)}."
+        )
 
     anomaly = {}
     if anomaly_type == "due_date_anomaly":
@@ -136,6 +153,11 @@ def _apply_general_anomaly(
         if merchant_invoices:
             base_invoice = random.choice(merchant_invoices)
             duplicate_invoice = _apply_variations(base_invoice)
+            base_invoice["label"] = 1
+            duplicate_invoice["label"] = 1
+            if output_types:
+                base_invoice["anomaly_types"].append(anomaly_type)
+                duplicate_invoice["anomaly_types"].append(anomaly_type)
             anomaly = {"duplicate_invoice": duplicate_invoice}
     elif anomaly_type == "merchant_mismatch":
         chain_name = merchant_name_generator(
@@ -399,7 +421,7 @@ def generate_synthetic_invoice(
     num_merchants: int = 10,
     general_anomaly_rate: float = 0.3,
     line_anomaly_rate: float = 0.05,
-    test: bool = False,
+    output_types: bool = False,
 ) -> list[dict]:
     """Generate synthetic invoice data based on the provided schema.
 
@@ -410,7 +432,8 @@ def generate_synthetic_invoice(
             anomalies (anomaly per invoice)
         line_anomaly_rate (float): Rate at which to introduce line
             anomalies (anomaly per line item)
-        test (bool): Whether output anomaly types to support testing
+        output_types (bool): Whether output anomaly types to support
+            testing and model tuning
 
     Returns:
         list: List of invoice dictionaries following the
@@ -673,11 +696,12 @@ def generate_synthetic_invoice(
             # Introduce line anomalies
             if random.random() < line_anomaly_rate:
                 anomaly_type, anomaly = _apply_line_anomaly(
-                    selected_products,
-                    adjusted_unit_price,
-                    qty,
-                    line_tax,
-                    line_total,
+                    selected_products=selected_products,
+                    adjusted_unit_price=adjusted_unit_price,
+                    qty=qty,
+                    tax_rate=tax_rate,
+                    line_tax=line_tax,
+                    line_total=line_total,
                 )
 
                 if anomaly is not None:
@@ -690,8 +714,13 @@ def generate_synthetic_invoice(
 
                     if "phantom_line_detail" in anomaly:
                         phantom_line_detail = anomaly["phantom_line_detail"]
-                        phantom_line_detail["line_count"] = str(
-                            len(formatted_line_details) + 1
+                        subtotal += float(phantom_line_detail["line_total"])
+                        total_tax += float(phantom_line_detail["line_tax"])
+                        phantom_line_detail["line_total"] = (
+                            f"{phantom_line_detail["line_total"]:.2f}"
+                        )
+                        phantom_line_detail["line_tax"] = (
+                            f"{phantom_line_detail["line_tax"]:.2f}"
                         )
                         formatted_line_details.append(phantom_line_detail)
 
@@ -709,13 +738,15 @@ def generate_synthetic_invoice(
                     "line_qty": str(qty),
                     "line_tax": "{:.2f}".format(line_tax),
                     "line_total": "{:.2f}".format(line_total),
-                    "model": product["model"],  # Add this line
                 }
             )
 
             # Add to running totals
             subtotal += line_total
             total_tax += line_tax
+
+        for i, line in enumerate(formatted_line_details):
+            line["line_count"] = str(i + 1)
 
         # Calculate grand total
         grand_total = subtotal + total_tax + shipping_cost
@@ -728,12 +759,13 @@ def generate_synthetic_invoice(
         if random.random() < general_anomaly_rate:
             anomaly_type, anomaly = _apply_general_anomaly(
                 invoices,
-                merchant_name,
-                merchant_type,
-                tax_rate,
-                invoice_date,
-                due_date,
-                due_days,
+                merchant_name=merchant_name,
+                merchant_type=merchant_type,
+                tax_rate=tax_rate,
+                invoice_date=invoice_date,
+                due_date=due_date,
+                due_days=due_days,
+                output_types=output_types,
             )
 
             if anomaly is not None:
@@ -755,12 +787,11 @@ def generate_synthetic_invoice(
 
                 if "duplicate_invoice" in anomaly:
                     duplicate_invoice = anomaly["duplicate_invoice"]
-                    duplicate_invoice["label"] = 1
                     invoices.append(duplicate_invoice)
+                else:
+                    label = 1  # Set anomaly label for other anomalies
+                    anomaly_types.append(anomaly_type)
 
-                anomaly_types.append(anomaly_type)
-
-                label = 1
         # ----------------------------------------------------------
 
         # Create formatted invoice following the schema
@@ -787,7 +818,7 @@ def generate_synthetic_invoice(
             "label": label,
         }
 
-        if test:
+        if output_types:
             formatted_invoice["anomaly_types"] = anomaly_types
 
         invoices.append(formatted_invoice)
@@ -877,7 +908,7 @@ def generate_dataset(
     general_anomaly_rate: float = 0.3,
     line_anomaly_rate: float = 0.05,
     seed: int = 42,
-    test: bool = False,
+    output_types: bool = False,
 ) -> list[dict]:
     """Generate a complete synthetic invoice dataset.
 
@@ -889,7 +920,8 @@ def generate_dataset(
         line_anomaly_rate (float): Rate of line anomalies
             (anomaly per line item) to introduce
         seed (int): Random seed for reproducibility
-        test (bool): Whether output anomaly types to support testing
+        output_types (bool): Whether output anomaly types to support
+            testing and model tuning
 
     Returns:
         list: Generated invoices
@@ -905,7 +937,11 @@ def generate_dataset(
         f"line anomaly rate: {line_anomaly_rate:.1%})..."
     )
     invoices = generate_synthetic_invoice(
-        num_invoices, num_merchants, general_anomaly_rate, line_anomaly_rate, test
+        num_invoices,
+        num_merchants,
+        general_anomaly_rate,
+        line_anomaly_rate,
+        output_types,
     )
 
     # Analyze the generated data

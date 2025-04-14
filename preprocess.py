@@ -2,6 +2,7 @@ import re
 
 import numpy as np
 import pandas as pd
+from scipy import sparse
 from sklearn.feature_extraction import text as skl_text
 from sklearn.metrics import pairwise
 
@@ -33,6 +34,78 @@ _PAYMENT_DAYS = {
 _US_TERRITORIES = {"PR", "MP", "PW", "VI", "AS", "MH", "GU", "FM"}
 
 
+def _calculate_invoice_similarity(
+    invoices: list[dict],
+    vectorizer: skl_text.TfidfVectorizer | None = None,
+    train_vecs: sparse.spmatrix | None = None,
+    is_train: bool = True,
+) -> tuple[np.ndarray, skl_text.TfidfVectorizer | None, sparse.spmatrix | None]:
+    invoice_texts = [str(invoice) for invoice in invoices]
+    vectorizer_ = None
+    train_vecs_ = None
+
+    if is_train:
+        vectorizer_ = skl_text.TfidfVectorizer()
+        train_vecs_ = vectorizer_.fit_transform(invoice_texts)
+
+        similarity_matrix = pairwise.cosine_similarity(train_vecs_)
+        np.fill_diagonal(similarity_matrix, -1)
+        max_similarity = similarity_matrix.max(axis=1)
+
+        return max_similarity, vectorizer_, train_vecs_
+
+    else:
+        if vectorizer is None or train_vecs is None:
+            raise ValueError(
+                "Must provide vectorizer and train vectors when `is_train=False`."
+            )
+
+        test_vecs = vectorizer.transform(invoice_texts)
+
+        similarity_test_train = pairwise.cosine_similarity(test_vecs, train_vecs)
+        max_similarity_train = similarity_test_train.max(axis=1)
+
+        similarity_test_test = pairwise.cosine_similarity(test_vecs)
+        np.fill_diagonal(similarity_test_test, -1)
+        max_similarity_test = similarity_test_test.max(axis=1)
+
+        max_similarity = np.maximum(max_similarity_train, max_similarity_test)
+
+        return max_similarity, vectorizer_, train_vecs_
+
+
+def _calculate_line_description_similarity(
+    line_df: pd.DataFrame,
+    vectorizer: skl_text.TfidfVectorizer | None = None,
+    normal_vecs: sparse.spmatrix | None = None,
+    is_train: bool = True,
+) -> tuple[np.ndarray, skl_text.TfidfVectorizer | None, sparse.spmatrix | None]:
+    normal_df = line_df[line_df["is_anomalous"] == 0]
+
+    if is_train:
+        vectorizer_ = skl_text.TfidfVectorizer()
+        normal_vecs_ = vectorizer_.fit_transform(normal_df["line_description"])
+        train_vecs = vectorizer_.transform(line_df["line_description"])
+
+        similarity_matrix = pairwise.cosine_similarity(train_vecs, normal_vecs_)
+        max_similarity = similarity_matrix.max(axis=1)
+
+        return max_similarity, vectorizer_, normal_vecs_
+
+    else:
+        if vectorizer is None or normal_vecs is None:
+            raise ValueError(
+                "Must provide vectorizer and normal vectors when `is_train=False`."
+            )
+
+        test_vecs = vectorizer.transform(line_df["line_description"])
+
+        similarity_matrix = pairwise.cosine_similarity(test_vecs, normal_vecs)
+        max_similarity = similarity_matrix.max(axis=1)
+
+        return max_similarity, None, None
+
+
 def _extract_state(address: str) -> str | None:
     """Extract state abbreviation from a U.S. address."""
     match = re.search(r"\b([A-Z]{2})\s+\d{5}\b", address)
@@ -41,41 +114,83 @@ def _extract_state(address: str) -> str | None:
 
 def process_invoice(
     invoices: list[dict],
-    phantom_threshold: float = 0.05,
+    is_train: bool = True,
+    invoice_vectorizer: skl_text.TfidfVectorizer | None = None,
+    invoice_train_vecs: sparse.spmatrix | None = None,
     duplicate_threshold: float = 0.95,
-    test: bool = False,
-) -> pd.DataFrame:
+    line_vectorizer: skl_text.TfidfVectorizer | None = None,
+    line_normal_vecs: sparse.spmatrix | None = None,
+    phantom_threshold: float = 0.05,
+    output_types: bool = False,
+) -> tuple[
+    pd.DataFrame,
+    tuple[skl_text.TfidfVectorizer | None, sparse.spmatrix | None],
+    tuple[skl_text.TfidfVectorizer | None, sparse.spmatrix | None],
+]:
     """Process invoice with feature engineering for anomaly detection.
 
     Args:
         invoices (list[dict]): List of invoice JSON objects
-        phantom_threshold (float): Similarity threshold to flag
-            phantom items
+        is_train (bool): Whether the invoices belong to the training set
+            If True, new TF-IDF vectorizer and reference vectors will
+            be constructed.
+            If False, provided vectorizer and train vectors will be
+            used for inference.
+        invoice_vectorizer (Optional[TfidfVectorizer]): A pre-fitted
+            vectorizer for full invoice text used in duplicate
+            detection. Required when `is_train=False`.
+        invoice_train_vecs (Optional[spmatrix]): TF-IDF matrix from
+            training invoices for duplicate detection. Required when
+            `is_train=False`.
         duplicate_threshold (float): Similarity threshold to flag
             duplicate invoices
-        test (bool): Whether output anomaly types to support testing
+        line_vectorizer (Optional[TfidfVectorizer]): A pre-fitted
+            vectorizer for line item descriptions (used in phantom
+            item detection). Required when `is_train=False`.
+        line_normal_vecs (Optional[spmatrix]): TF-IDF matrix or sparse
+            matrix for normal (non-anomalous) line item descriptions.
+            Required when `is_train=False`.
+        phantom_threshold (float): Similarity threshold to flag
+            phantom items
+        output_types (bool): Whether output anomaly types to support
+            testing and model tuning
 
     Returns:
-        pd.DataFrame: Engineered dataset with anomaly-related features.
-            Return an empty DataFrame if the invoice list is empty
+        tuple:
+            - DataFrame: Engineered dataset with features
+            - Optional[tuple[TfidfVectorizer, spmatrix]]:
+                - Fitted vectorizer and training matrix for invoices
+                (returned if `is_train=True`)
+            - Optional[tuple[TfidfVectorizer, spmatrix]]:
+                - Fitted vectorizer and reference matrix for line item
+                descriptions (returned if `is_train=True`)
+
+    Raises:
+        ValueError: If `test=True` and some invoice entries are missing
+            the `anomaly_types` field.
     """
     if not invoices:
-        return pd.DataFrame()
+        return pd.DataFrame(), (None, None), (None, None)
 
-    if test and any("anomaly_types" not in invoice for invoice in invoices):
+    if output_types and any("anomaly_types" not in invoice for invoice in invoices):
         raise ValueError(
             "`anomaly_types` not found in some invoices. "
-            "If you're using real data, set `test=False`. "
-            "Otherwise, regenerate the data with `test=True` to include anomaly labels."
+            "If you're using real data, set `output_types=False`. "
+            "Otherwise, regenerate the data with `output_types=True` "
+            "to include anomaly labels."
         )
 
     # Calculate invoice similarities
-    vectorizer = skl_text.TfidfVectorizer()
-    invoice_texts = [str(invoice) for invoice in invoices]
-    tfidf_matrix = vectorizer.fit_transform(invoice_texts)
-    similarity_matrix = pairwise.cosine_similarity(tfidf_matrix)
-    np.fill_diagonal(similarity_matrix, -1)  # Exclude self-similarity
-    max_invoice_similarity = similarity_matrix.max(axis=1)
+    invoice_vectorizer_ = None
+    invoice_train_vecs_ = None
+    if is_train:
+        max_invoice_similarity, invoice_vectorizer_, invoice_train_vecs_ = (
+            _calculate_invoice_similarity(invoices)
+        )
+    else:
+        max_invoice_similarity, _, _ = _calculate_invoice_similarity(
+            invoices, invoice_vectorizer, invoice_train_vecs, is_train
+        )
 
     records = []
     for i, (invoice, similarity) in enumerate(zip(invoices, max_invoice_similarity)):
@@ -122,12 +237,19 @@ def process_invoice(
         "grand_total"
     ]
 
-    # Line similarity check
-    vectorizer = skl_text.TfidfVectorizer()
-    tfidf_matrix = vectorizer.fit_transform(df["line_description"].fillna(""))
-    similarity_matrix = pairwise.cosine_similarity(tfidf_matrix)
-    df["avg_description_similarity"] = similarity_matrix.mean(axis=1)
-    df["phantom_item_flag"] = df["avg_description_similarity"] < phantom_threshold
+    # Line description similarity check
+    line_vectorizer_ = None
+    line_normal_vecs_ = None
+    if is_train:
+        max_line_similarity, line_vectorizer_, line_normal_vecs_ = (
+            _calculate_line_description_similarity(df)
+        )
+    else:
+        max_line_similarity, _, _ = _calculate_line_description_similarity(
+            df, line_vectorizer, line_normal_vecs, is_train
+        )
+    df["line_description_similarity"] = max_line_similarity
+    df["phantom_item_flag"] = df["line_description_similarity"] < phantom_threshold
 
     # Invoice similarity check
     df["duplicate_invoice_flag"] = df["invoice_similarity"] > duplicate_threshold
@@ -181,7 +303,7 @@ def process_invoice(
                 "actual_tax_rate": "first",
                 "expected_tax_rate": "first",
                 "expected_tax": "first",
-                "avg_description_similarity": "mean",
+                "line_description_similarity": "min",
                 "invoice_similarity": "first",
                 "payment_terms_numeric": "first",
                 "state": "first",
@@ -191,11 +313,15 @@ def process_invoice(
         .drop(columns=["invoice_idx"])
     )
 
-    if test:
+    if output_types:
         invoice_df = invoice_df.rename(
             columns={"anomaly_types": "_ANOMALY_TYPES_DROP_BEFORE_TRAINING_"}
         )
     else:
         invoice_df = invoice_df.drop("anomaly_types", axis=1)
 
-    return invoice_df
+    return (
+        invoice_df,
+        (invoice_vectorizer_, invoice_train_vecs_),
+        (line_vectorizer_, line_normal_vecs_),
+    )
