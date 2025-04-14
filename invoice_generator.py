@@ -19,6 +19,7 @@ def _apply_line_anomaly(
     selected_products: list[dict],
     adjusted_unit_price: float,
     qty: int,
+    line_tax: float,
     line_total: float,
     anomaly_type: str | None = None,
 ) -> tuple[str, dict[str, Any]] | tuple[None, None]:
@@ -34,15 +35,22 @@ def _apply_line_anomaly(
     if anomaly_type is None:
         anomaly_type = random.choice(line_anomaly_types)
 
+    while anomaly_type == "skip_tax" and line_tax == 0:
+        anomaly_type = random.choice(line_anomaly_types)
+
     assert anomaly_type in line_anomaly_types
 
     anomaly = {}
     if anomaly_type == "tax_calc":
-        line_tax = round(line_total * random.uniform(0.05, 0.25), 2)
+        original_line_tax = line_tax
+        while line_tax == original_line_tax:
+            line_tax = round(line_total * random.uniform(0.05, 0.25), 2)
         anomaly = {"line_tax": line_tax}
     elif anomaly_type == "line_total":
         # Slightly off multiplication
-        line_total = round(adjusted_unit_price * qty * random.uniform(0.5, 2.0), 2)
+        original_line_total = line_total
+        while line_total == original_line_total:
+            line_total = round(adjusted_unit_price * qty * random.uniform(0.5, 2.0), 2)
         anomaly = {"line_total": line_total}
     elif anomaly_type == "skip_tax":
         line_tax = 0.0
@@ -105,9 +113,15 @@ def _apply_general_anomaly(
 
     anomaly = {}
     if anomaly_type == "due_date_anomaly":
-        due_date = invoice_date + datetime.timedelta(
-            days=round(due_days * random.uniform(0.5, 1.5))
-        )
+        original_due_date = due_date
+        while due_date == original_due_date:
+            due_date = invoice_date + datetime.timedelta(
+                days=(
+                    round(due_days * random.uniform(0.5, 1.5))
+                    if due_days != 0
+                    else round(3 * random.uniform(0.5, 1.5))
+                )
+            )
         anomaly = {"due_date": due_date}
     elif anomaly_type == "varied_wordings":
         merchant_invoices = [
@@ -662,6 +676,7 @@ def generate_synthetic_invoice(
                     selected_products,
                     adjusted_unit_price,
                     qty,
+                    line_tax,
                     line_total,
                 )
 
