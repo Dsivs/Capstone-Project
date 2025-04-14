@@ -11,7 +11,7 @@ import numpy as np
 # Set up the Faker generator with a fixed seed for reproducibility
 fake = faker.Faker(["en_US"])
 
-with open(R"synthetic_data_configs.json", "r") as f:
+with open("synthetic_data_configs.json", "r") as f:
     synthetic_data_configs = json.load(f)
 
 
