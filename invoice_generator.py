@@ -1,13 +1,3 @@
-"""
-Module for synthetic invoice generator.
-
-This module provides a generator for ... 
-The primary function in this module is generate_dataset.
-
-Date: 
-"""
-
-
 import collections
 import copy
 import datetime
@@ -31,7 +21,7 @@ def _apply_line_anomaly(
     qty: int,
     line_total: float,
     anomaly_type: str | None = None,
-) -> dict[str, Any] | None:
+) -> tuple[str, dict[str, Any]] | tuple[None, None]:
     line_anomaly_types = [
         "tax_calc",
         "line_total",
@@ -87,7 +77,7 @@ def _apply_line_anomaly(
         }
         anomaly = {"phantom_line_detail": phantom_line_detail}
 
-    return anomaly if anomaly else None
+    return (anomaly_type, anomaly) if anomaly else (None, None)
 
 
 def _apply_general_anomaly(
@@ -99,7 +89,7 @@ def _apply_general_anomaly(
     due_date: datetime.datetime,
     due_days: int,
     anomaly_type: str | None = None,
-) -> dict[str, Any] | None:
+) -> tuple[str, dict[str, Any]] | tuple[None, None]:
     general_anomaly_types = [
         "due_date_anomaly",
         "varied_wordings",
@@ -148,7 +138,7 @@ def _apply_general_anomaly(
                 break
         anomaly = {"state": new_state}
 
-    return anomaly if anomaly else None
+    return (anomaly_type, anomaly) if anomaly else (None, None)
 
 
 def _apply_variations(base_invoice: dict[str, Any]) -> dict[str, Any]:
@@ -395,6 +385,7 @@ def generate_synthetic_invoice(
     num_merchants: int = 10,
     general_anomaly_rate: float = 0.3,
     line_anomaly_rate: float = 0.05,
+    test: bool = False,
 ) -> list[dict]:
     """Generate synthetic invoice data based on the provided schema.
 
@@ -405,6 +396,7 @@ def generate_synthetic_invoice(
             anomalies (anomaly per invoice)
         line_anomaly_rate (float): Rate at which to introduce line
             anomalies (anomaly per line item)
+        test (bool): Whether output anomaly types to support testing
 
     Returns:
         list: List of invoice dictionaries following the
@@ -623,6 +615,8 @@ def generate_synthetic_invoice(
         # Anomaly label
         label = 0
 
+        anomaly_types = []
+
         # Generate each line item
         for i, product in enumerate(selected_products, 1):
             description = product["description"]
@@ -664,7 +658,7 @@ def generate_synthetic_invoice(
             # ----------------------------------------------------------
             # Introduce line anomalies
             if random.random() < line_anomaly_rate:
-                anomaly = _apply_line_anomaly(
+                anomaly_type, anomaly = _apply_line_anomaly(
                     selected_products,
                     adjusted_unit_price,
                     qty,
@@ -685,6 +679,8 @@ def generate_synthetic_invoice(
                             len(formatted_line_details) + 1
                         )
                         formatted_line_details.append(phantom_line_detail)
+
+                    anomaly_types.append(anomaly_type)
 
                     # Set anomaly label
                     label = 1
@@ -715,7 +711,7 @@ def generate_synthetic_invoice(
         # ----------------------------------------------------------
         # Introduce general anomalies
         if random.random() < general_anomaly_rate:
-            anomaly = _apply_general_anomaly(
+            anomaly_type, anomaly = _apply_general_anomaly(
                 invoices,
                 merchant_name,
                 merchant_type,
@@ -747,6 +743,8 @@ def generate_synthetic_invoice(
                     duplicate_invoice["label"] = 1
                     invoices.append(duplicate_invoice)
 
+                anomaly_types.append(anomaly_type)
+
                 label = 1
         # ----------------------------------------------------------
 
@@ -773,6 +771,9 @@ def generate_synthetic_invoice(
             ],
             "label": label,
         }
+
+        if test:
+            formatted_invoice["anomaly_types"] = anomaly_types
 
         invoices.append(formatted_invoice)
 
@@ -861,6 +862,7 @@ def generate_dataset(
     general_anomaly_rate: float = 0.3,
     line_anomaly_rate: float = 0.05,
     seed: int = 42,
+    test: bool = False,
 ) -> list[dict]:
     """Generate a complete synthetic invoice dataset.
 
@@ -872,6 +874,7 @@ def generate_dataset(
         line_anomaly_rate (float): Rate of line anomalies
             (anomaly per line item) to introduce
         seed (int): Random seed for reproducibility
+        test (bool): Whether output anomaly types to support testing
 
     Returns:
         list: Generated invoices
@@ -887,7 +890,7 @@ def generate_dataset(
         f"line anomaly rate: {line_anomaly_rate:.1%})..."
     )
     invoices = generate_synthetic_invoice(
-        num_invoices, num_merchants, general_anomaly_rate, line_anomaly_rate
+        num_invoices, num_merchants, general_anomaly_rate, line_anomaly_rate, test
     )
 
     # Analyze the generated data

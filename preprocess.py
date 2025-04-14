@@ -2,7 +2,7 @@ import re
 
 import numpy as np
 import pandas as pd
-from sklearn.feature_extraction import text as sklearn_text
+from sklearn.feature_extraction import text as skl_text
 from sklearn.metrics import pairwise
 
 # U.S. State Tax Rates
@@ -43,6 +43,7 @@ def process_invoice(
     invoices: list[dict],
     phantom_threshold: float = 0.05,
     duplicate_threshold: float = 0.95,
+    test: bool = False,
 ) -> pd.DataFrame:
     """Process invoice with feature engineering for anomaly detection.
 
@@ -52,6 +53,7 @@ def process_invoice(
             phantom items
         duplicate_threshold (float): Similarity threshold to flag
             duplicate invoices
+        test (bool): Whether output anomaly types to support testing
 
     Returns:
         pd.DataFrame: Engineered dataset with anomaly-related features.
@@ -60,8 +62,15 @@ def process_invoice(
     if not invoices:
         return pd.DataFrame()
 
+    if test and any("anomaly_types" not in invoice for invoice in invoices):
+        raise ValueError(
+            "`anomaly_types` not found in some invoices. "
+            "If you're using real data, set `test=False`. "
+            "Otherwise, regenerate the data with `test=True` to include anomaly labels."
+        )
+
     # Calculate invoice similarities
-    vectorizer = sklearn_text.TfidfVectorizer()
+    vectorizer = skl_text.TfidfVectorizer()
     invoice_texts = [str(invoice) for invoice in invoices]
     tfidf_matrix = vectorizer.fit_transform(invoice_texts)
     similarity_matrix = pairwise.cosine_similarity(tfidf_matrix)
@@ -74,6 +83,7 @@ def process_invoice(
         extraction_fields = {
             entry["field"]: entry["value"] for entry in invoice.get("extractions", [])
         }
+        anomaly_types = invoice.get("anomaly_types", [])
 
         # Grab and remove line_details from extraction_fields
         line_items = extraction_fields.pop("line_details", [])
@@ -82,6 +92,7 @@ def process_invoice(
             record["invoice_idx"] = i
             record["invoice_similarity"] = similarity
             record["is_anomalous"] = label
+            record["anomaly_types"] = anomaly_types
             records.append(record)
 
     df = pd.DataFrame(records)
@@ -112,7 +123,7 @@ def process_invoice(
     ]
 
     # Line similarity check
-    vectorizer = sklearn_text.TfidfVectorizer()
+    vectorizer = skl_text.TfidfVectorizer()
     tfidf_matrix = vectorizer.fit_transform(df["line_description"].fillna(""))
     similarity_matrix = pairwise.cosine_similarity(tfidf_matrix)
     df["avg_description_similarity"] = similarity_matrix.mean(axis=1)
@@ -124,7 +135,7 @@ def process_invoice(
     # Payment days check
     df["payment_terms_numeric"] = df["payment_terms"].map(_PAYMENT_DAYS)
     df["invoice_age"] = (df["due_date"] - df["invoice_date"]).dt.days
-    df["invoice_age_mismatch"] = df["invoice_age"] != df["payment_terms_numeric"]
+    df["invoice_age_mismatch_flag"] = df["invoice_age"] != df["payment_terms_numeric"]
 
     # Negative quantity check
     df["negative_qty_flag"] = df["line_qty"] < 0
@@ -142,40 +153,49 @@ def process_invoice(
         df.groupby("invoice_idx")
         .agg(
             {
+                "anomaly_types": "first",
+                "is_anomalous": "max",
                 "merchant": "first",
+                "invoice_date": "first",
                 "merchant_branch": "first",
                 "merchant_chain": "first",
-                "po_number": "first",
-                "payment_method": "first",
-                "payment_terms_numeric": "first",
-                "invoice_age": "first",
-                "invoice_age_mismatch": "any",
-                "country": "first",
-                "currency": "first",
+                "due_date": "first",
+                "payment_terms": "first",
                 "grand_total": "first",
                 "tax": "first",
-                "actual_tax_rate": "first",
-                "expected_tax_rate": "first",
-                "expected_tax": "first",
+                "po_number": "first",
+                "country": "first",
+                "currency": "first",
+                "merchant_address": "first",
+                "payment_method": "first",
+                "line_total": "sum",
+                "line_qty": "sum",
+                "invoice_age_mismatch_flag": "any",
                 "tax_mismatch_flag": "any",
                 "phantom_item_flag": "any",
                 "negative_qty_flag": "any",
                 "duplicate_product_flag": "any",
                 "merchant_mismatch_flag": "any",
                 "duplicate_invoice_flag": "any",
+                "invoice_age": "first",
+                "actual_tax_rate": "first",
+                "expected_tax_rate": "first",
+                "expected_tax": "first",
                 "avg_description_similarity": "mean",
                 "invoice_similarity": "first",
-                "line_total": "sum",
-                "line_qty": "sum",
-                "invoice_date": "first",
-                "due_date": "first",
-                "merchant_address": "first",
+                "payment_terms_numeric": "first",
                 "state": "first",
-                "is_anomalous": "max",
             }
         )
         .reset_index()
         .drop(columns=["invoice_idx"])
     )
+
+    if test:
+        invoice_df = invoice_df.rename(
+            columns={"anomaly_types": "_ANOMALY_TYPES_DROP_BEFORE_TRAINING_"}
+        )
+    else:
+        invoice_df = invoice_df.drop("anomaly_types", axis=1)
 
     return invoice_df
