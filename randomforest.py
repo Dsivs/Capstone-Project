@@ -1,3 +1,11 @@
+"""
+Module for Random Forest Classifier
+
+This module provides ... 
+
+Date: 
+"""
+
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, classification_report
@@ -38,7 +46,7 @@ X_train = X_train.drop(columns=['invoice_date', 'due_date'])
 X_test = X_test.drop(columns=['invoice_date', 'due_date'])
 
 # initialize and train random forest classifier
-model = RandomForestClassifier(n_estimators=200, 
+model = RandomForestClassifier(n_estimators=500, 
                                 random_state=42)
                                 #class_weight = 'balanced')
                                 #class_weight='balanced_subsample')
