@@ -714,14 +714,17 @@ def generate_synthetic_invoice(
 
                     if "phantom_line_detail" in anomaly:
                         phantom_line_detail = anomaly["phantom_line_detail"]
+
                         subtotal += float(phantom_line_detail["line_total"])
                         total_tax += float(phantom_line_detail["line_tax"])
+
                         phantom_line_detail["line_total"] = (
                             f"{phantom_line_detail["line_total"]:.2f}"
                         )
                         phantom_line_detail["line_tax"] = (
                             f"{phantom_line_detail["line_tax"]:.2f}"
                         )
+
                         formatted_line_details.append(phantom_line_detail)
 
                     anomaly_types.append(anomaly_type)

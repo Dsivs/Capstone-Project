@@ -53,7 +53,6 @@ def _calculate_invoice_similarity(
         max_similarity = similarity_matrix.max(axis=1)
 
         return max_similarity, vectorizer_, train_vecs_
-
     else:
         if vectorizer is None or train_vecs is None:
             raise ValueError(
@@ -91,7 +90,6 @@ def _calculate_line_description_similarity(
         max_similarity = similarity_matrix.max(axis=1)
 
         return max_similarity, vectorizer_, normal_vecs_
-
     else:
         if vectorizer is None or normal_vecs is None:
             raise ValueError(
