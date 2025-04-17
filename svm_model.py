@@ -1,3 +1,13 @@
+"""
+This module builds and runs a Support Vector Machine model to predict which 
+invoices are anomalous. The input is a parquet file, which is the output from 
+preprocess.py, containing invoice data after feature engineering preprocessing.
+
+The output is...
+
+"""
+
+
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score, classification_report
 from sklearn.preprocessing import LabelEncoder, StandardScaler

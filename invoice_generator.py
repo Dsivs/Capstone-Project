@@ -1,3 +1,13 @@
+"""
+This module is built off of a synthetic invoice generator provided by Itemize. 
+We made slight modifications to include a label to create anamolies in the data.
+
+The output is a json file of generated invoices resembling the output of Itemize's 
+API for reading PDF invoices into digitized data.
+
+"""
+
+
 import collections
 import copy
 import datetime

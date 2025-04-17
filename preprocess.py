@@ -1,3 +1,12 @@
+"""
+This module builds and runs a support vector machine model to predict which 
+invoices are anomalous. The input is a parquet file, which is the output from 
+preprocess.py, containing invoice data after feature engineering preprocessing.
+
+The output is...
+
+"""
+
 import re
 
 import numpy as np

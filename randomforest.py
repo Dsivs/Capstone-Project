@@ -1,3 +1,12 @@
+"""
+This module builds and runs a Random Forest model to predict which 
+invoices are anomalous. The input is a parquet file, which is the output from 
+preprocess.py, containing invoice data after feature engineering preprocessing.
+
+The output is...
+
+"""
+
 import pandas as pd
 from feature_engine import datetime as fe_datetime
 from sklearn import ensemble, metrics, preprocessing
