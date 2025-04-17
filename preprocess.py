@@ -226,14 +226,16 @@ def process_invoice(
     df["expected_tax_rate"] = df["state"].apply(
         lambda x: _STATE_TAX_RATES.get(x, 0.0) if x not in _US_TERRITORIES else 0.0
     )
-    df["expected_tax"] = df["expected_tax_rate"] * (df["grand_total"] - df["tax"])
-    try:
-        df["actual_tax_rate"] = df["tax"] / (df["grand_total"] - df["tax"])
-    except ZeroDivisionError:
-        df["actual_tax_rate"] = np.nan
-    df["tax_mismatch_flag"] = (df["expected_tax"] - df["tax"]).abs() > 0.01 * df[
-        "grand_total"
-    ]
+    df["expected_line_tax"] = df["expected_tax_rate"] * df["line_total"]
+    df["line_tax_mismatch_flag"] = (
+        df["expected_line_tax"] - df["line_tax"]
+    ).abs() > 0.005  # Maximum deviation of rounding to 2 digits
+    df["expected_tax"] = (
+        df["expected_line_tax"].groupby(df["invoice_idx"]).transform("sum")
+    )
+    df["tax_mismatch_flag"] = (
+        df["expected_tax"] - df["tax"]
+    ).abs() > 0.005  # Maximum deviation of rounding to 2 digits
 
     # Line description similarity check
     line_vectorizer_ = None
@@ -273,8 +275,11 @@ def process_invoice(
         df.groupby("invoice_idx")
         .agg(
             {
+                # Output anomaly types for test support
                 "anomaly_types": "first",
+                # Anomaly label
                 "is_anomalous": "max",
+                # Original invoice data
                 "merchant": "first",
                 "invoice_date": "first",
                 "merchant_branch": "first",
@@ -288,23 +293,25 @@ def process_invoice(
                 "currency": "first",
                 "merchant_address": "first",
                 "payment_method": "first",
-                "line_total": "sum",
-                "line_qty": "sum",
+                # Binary flags
                 "invoice_age_mismatch_flag": "any",
+                "line_tax_mismatch_flag": "any",
                 "tax_mismatch_flag": "any",
                 "phantom_item_flag": "any",
                 "negative_qty_flag": "any",
                 "duplicate_product_flag": "any",
                 "merchant_mismatch_flag": "any",
                 "duplicate_invoice_flag": "any",
+                # Intermediate variables
+                "line_total": "sum",
+                "line_qty": "sum",
                 "invoice_age": "first",
-                "actual_tax_rate": "first",
+                "payment_terms_numeric": "first",
+                "state": "first",
                 "expected_tax_rate": "first",
                 "expected_tax": "first",
                 "line_description_similarity": "min",
                 "invoice_similarity": "first",
-                "payment_terms_numeric": "first",
-                "state": "first",
             }
         )
         .reset_index()
