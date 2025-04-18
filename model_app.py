@@ -19,12 +19,8 @@ def main():
     preprocessed_df = preprocess(json_path)
 
     # Step 3: Run random forest model
-    print("Running Random Forest...")
-    rf_output_df = run_random_forest(preprocessed_df)
-
-    # Step 4: Run XGBoost model
-    print("Running XGBoost...")
-    anomalies_df = run_xgboost(rf_output_df)
+    print("Running Ensemble Model...")
+    rf_output_df = ensemble_model(preprocessed_df)
 
     # Step 5: Print output
     print("Anomalous invoices detected:")
