@@ -9,6 +9,7 @@ from collections import Counter
 # Load data
 df_train = pd.read_parquet('train_df.parquet', engine='pyarrow')
 df_test = pd.read_parquet('test_df.parquet', engine='pyarrow')
+df_test_raw = df_test.copy()
 
 # Separate features X and target y (anomaly label 0 or 1)
 X_train = df_train.drop(['is_anomalous', '_ANOMALY_TYPES_DROP_BEFORE_TRAINING_'], axis=1)
@@ -61,3 +62,14 @@ y_pred_xgb = xgboost_model.predict(X_test)
 y_pred_final = np.logical_or(y_pred_rf, y_pred_xgb).astype(int)
 print("Custom Ensemble Accuracy:", accuracy_score(y_test, y_pred_final))
 print("\nClassification Report:\n", classification_report(y_test, y_pred_final))
+
+
+# --- Build Result DataFrame ---
+df_test_raw = df_test_raw.reset_index(drop=True)
+result_df = df_test_raw.copy()
+
+result_df['rf_pred'] = y_pred_rf
+result_df['xgb_pred'] = y_pred_xgb
+result_df['final_anomaly'] = y_pred_final
+
+print(result_df[['merchant', 'po_number', 'invoice_date', 'final_anomaly']])
