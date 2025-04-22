@@ -1,0 +1,99 @@
+[
+  {
+    "extractions": [
+      {
+        "field": "merchant",
+        "value": "Curtis Instruments, Inc."
+      },
+      {
+        "field": "invoice_date",
+        "value": "04/06/2025"
+      },
+      {
+        "field": "merchant_branch",
+        "value": "Curtis Instruments, Inc."
+      },
+      {
+        "field": "merchant_chain",
+        "value": "Curtis Instruments, Inc."
+      },
+      {
+        "field": "due_date",
+        "value": "04/21/2025"
+      },
+      {
+        "field": "payment_terms",
+        "value": "NET 15 DAYS"
+      },
+      {
+        "field": "grand_total",
+        "value": "6184.39"
+      },
+      {
+        "field": "tax",
+        "value": "237.85"
+      },
+      {
+        "field": "po_number",
+        "value": "55714-196"
+      },
+      {
+        "field": "merchant_address",
+        "value": "200 Kisco Avenue Mount Kisco NY 10549 USA"
+      },
+      {
+        "field": "payment_method",
+        "value": "UPS Ground"
+      },
+      {
+        "field": "country",
+        "value": "US"
+      },
+      {
+        "field": "currency",
+        "value": "USD"
+      },
+      {
+        "field": "line_details",
+        "value": [
+          {
+            "line_count": "1",
+            "line_description": "RBA-512 Heavy Duty Memory Module",
+            "line_qty": "2",
+            "line_tax": "13.06",
+            "line_total": "326.46"
+          },
+          {
+            "line_count": "2",
+            "line_description": "E-634 Deluxe Microprocessor",
+            "line_qty": "2",
+            "line_tax": "16.58",
+            "line_total": "414.59"
+          },
+          {
+            "line_count": "3",
+            "line_description": "AE-27714 Deluxe Memory Module",
+            "line_qty": "2",
+            "line_tax": "21.60",
+            "line_total": "540.12"
+          },
+          {
+            "line_count": "4",
+            "line_description": "ZW-4027 High Performance Circuit Board",
+            "line_qty": "1",
+            "line_tax": "10.05",
+            "line_total": "251.37"
+          },
+          {
+            "line_count": "5",
+            "line_description": "VR-7158 Premium Circuit Board",
+            "line_qty": "10",
+            "line_tax": "176.56",
+            "line_total": "4414.00"
+          }
+        ]
+      }
+    ],
+    "label": 0
+  }
+]
