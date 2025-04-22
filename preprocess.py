@@ -1,17 +1,19 @@
 """
-This module builds and runs a support vector machine model to predict which 
-invoices are anomalous. The input is a parquet file, which is the output from 
+This module builds and runs a support vector machine model to predict which
+invoices are anomalous. The input is a parquet file, which is the output from
 preprocess.py, containing invoice data after feature engineering preprocessing.
 
 The output is...
 
 """
 
+import json
 import re
 
 import numpy as np
 import pandas as pd
 from scipy import sparse
+from sklearn import model_selection
 from sklearn.feature_extraction import text as skl_text
 from sklearn.metrics import pairwise
 
@@ -339,3 +341,89 @@ def process_invoice(
         (invoice_vectorizer_, invoice_train_vecs_),
         (line_vectorizer_, line_normal_vecs_),
     )
+
+
+class Preprocessor:
+    def __init__(self) -> None:
+        self.invoice_vectorizer = None
+        self.invoice_train_vecs = None
+        self.line_vectorizer = None
+        self.line_normal_vecs = None
+
+    def fit(self, train_data: list[dict]) -> pd.DataFrame:
+        (
+            processed_train_data,
+            (self.invoice_vectorizer, self.invoice_train_vecs),
+            (self.line_vectorizer, self.line_normal_vecs),
+        ) = process_invoice(train_data)
+
+        return processed_train_data
+
+    def split_and_fit(
+        self,
+        data: str | list[dict],
+        test_size: float = 0.2,
+        random_state: int = 42,
+        shuffle=True,
+    ) -> tuple[pd.DataFrame, pd.DataFrame]:
+        if isinstance(data, str):
+            with open(data, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        elif not isinstance(data, list):
+            raise TypeError(
+                "Input `data` must be either a JSON file path (str) or "
+                "a list of extracted invoice information (list[dict])."
+            )
+
+        train_data, test_data = model_selection.train_test_split(
+            data, test_size=test_size, random_state=random_state, shuffle=shuffle
+        )
+        processed_train_data = self.fit(train_data)
+        processed_test_data = self.process_list(test_data, keep_label=True)
+
+        return processed_train_data, processed_test_data
+
+    def process_list(self, invoice_list: list[dict], keep_label=False) -> pd.DataFrame:
+        if (
+            self.invoice_vectorizer is None
+            or self.invoice_train_vecs is None
+            or self.line_vectorizer is None
+            or self.line_normal_vecs is None
+        ):
+            raise ValueError(
+                "Preprocessor is not fitted yet. Call `fit` or `split_and_fit` "
+                "before `process_list`."
+            )
+
+        processed_data, _, _ = process_invoice(
+            invoice_list,
+            is_train=False,
+            invoice_vectorizer=self.invoice_vectorizer,
+            invoice_train_vecs=self.invoice_train_vecs,
+            line_vectorizer=self.line_vectorizer,
+            line_normal_vecs=self.line_normal_vecs,
+        )
+
+        if not keep_label:
+            processed_data = processed_data.drop(
+                "is_anomalous", axis=1, errors="ignore"
+            )
+
+        return processed_data
+
+    def process_json(self, json_path: str, keep_label=False) -> pd.DataFrame:
+        if (
+            self.invoice_vectorizer is None
+            or self.invoice_train_vecs is None
+            or self.line_vectorizer is None
+            or self.line_normal_vecs is None
+        ):
+            raise ValueError(
+                "Preprocessor is not fitted yet. Call `fit` or `split_and_fit` "
+                "before `process_json`."
+            )
+
+        with open(json_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        return self.process_list(data, keep_label)
